@@ -1,18 +1,23 @@
+import { getRandomIndex } from './utils.mjs';
 
-function getRandom(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+// alarm data
+const url = '../data/alarm.json';
+
+// retrieve alarms
+async function getSounds() {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data.alarms;
 }
 
-async function playAlarm() {
-    let random = getRandom();
+// this needs to be changed to play sound. this will be exported to main
+async function displaySelection(data, selection) {
+    const info = await data;
+    const index = await selection;
+    console.log(info[index]);
 }
 
-var audio = new Audio('../data/sounds/rooster.mp3');
-const btn = document.querySelector('button');
+const sounds = getSounds();
+const selectedIndex = getRandomIndex(sounds);
 
-btn.addEventListener('click', function () {
-    audio.play();
-
-});
+displaySelection(sounds, selectedIndex);
