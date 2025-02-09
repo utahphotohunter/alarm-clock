@@ -1,3 +1,5 @@
+// this script creates the date and time for display
+
 // get current time
 export function getTime() {
     const currentTime = new Date();

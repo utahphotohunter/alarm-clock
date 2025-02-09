@@ -1,3 +1,5 @@
+// main script for index.html
+
 // import time and date
 import { getTime, getDate } from './timeDate.mjs';
 
