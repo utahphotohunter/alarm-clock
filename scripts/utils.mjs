@@ -1,8 +1,8 @@
 // useful general purpose functions
 
-// -----------------------------------------------
+// ==================================================
 // random number functions
-// -----------------------------------------------
+// ==================================================
 
 // gets random number 0 to one less than max
 function getRandom(max) {
@@ -16,9 +16,10 @@ export async function getRandomIndex(array) {
   return selection;
 }
 
-// -----------------------------------------------
+
+// ==================================================
 // time and date functions
-// -----------------------------------------------
+// ==================================================
 
 // get current time
 export function getTime() {

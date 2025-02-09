@@ -1,5 +1,14 @@
-// alarm data
+// sound functions and data
+
+// ==================================================
+// sound data
+// ==================================================
 const url = '../data/alarm.json';
+
+
+// ==================================================
+// sound functions
+// ==================================================
 
 // retrieve alarms
 export async function getSounds() {
