@@ -1,5 +1,6 @@
 // useful general purpose functions
 
+
 // ==================================================
 // random number functions
 // ==================================================
@@ -44,4 +45,19 @@ export function getDate() {
     const day = currentTime.getDate();
     const year = currentTime.getFullYear();
     return `${month} ${day}, ${year}`;
+}
+
+
+// ==================================================
+// local storage functions
+// ==================================================
+
+// set local storage
+function setLocalStorage(key, value) {
+    localStorage.setItem(key, value);
+}
+
+// get local storage by key
+function getLocalStorage(key) {
+    localStorage.getItem(key);
 }

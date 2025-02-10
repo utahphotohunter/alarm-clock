@@ -1,5 +1,6 @@
 // sound functions and data
 
+
 // ==================================================
 // sound data
 // ==================================================
@@ -28,6 +29,5 @@ export async function playAlarm(data, selection, stopButton) {
   audio.play();
   stopButton.addEventListener("click", function() {
     audio.pause();
-    console.log("done");
   });
 }
