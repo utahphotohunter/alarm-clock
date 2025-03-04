@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An alarm clock that makes you get up.">
+    <meta author="" content="Mitchel Hunter">
+    <title>Alarm Clock</title>
+    <script src="../scripts/script.js" type="module" defer></script>
+    <!-- <script src="../scripts/test.js" type="module" defer></script> -->
+    <link rel="stylesheet" href="/website/styles/alarm.css">
+    <link rel="stylesheet" href="/website/styles/styles-large.css">
+</head>
+<body>
+    <main>
+        <h1 id="time"></h1>
+        <h2 id="date"></h2>
+        <p id="alarmTime"></p>
+        <p>TIME TO GET UP!</p>
+        <button>I'm Awake</button>
+        <button id="start">Start</button>
+        <button id="new-sound">New Sound</button>
+        <button id="edit-alarm">Edit Alarm</button>
+        <dialog open>
+            <form action="">
+                <label for="hour">Hour</label>
+                <input type="number" min="1" max="12" step="1" id="hour" name="hour">
+                <label for="minute">Minute</label>
+                <input type="number" min="0" max="59" step="1" id="minute" name="minute">
+                <label for="meridian">AM/PM</label>
+                <select name="meridian" id="meridian">
+                    <option value="AM" selected>AM</option>
+                    <option value="PM">PM</option>
+                </select>
+                <button id="submit">Set Alarm</button>
+                <button id="close">Close</button>
+            </form>
+        </dialog>
+    </main>
+</body>
+</html>
