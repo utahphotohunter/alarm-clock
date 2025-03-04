@@ -53,11 +53,6 @@ export function getDate() {
 // ==================================================
 
 // set local storage
-function setLocalStorage(key, value) {
+export function setLocalStorage(key, value) {
     localStorage.setItem(key, value);
-}
-
-// get local storage by key
-function getLocalStorage(key) {
-    localStorage.getItem(key);
 }
