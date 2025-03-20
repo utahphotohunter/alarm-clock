@@ -4,9 +4,8 @@
 // ==================================================
 // imports
 // ==================================================
-import { getTime, getDate } from './utils.mjs';
+import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
-import { getRandomIndex } from "./utils.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
 
 

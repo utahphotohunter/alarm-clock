@@ -53,13 +53,3 @@ export function getDate() {
     const year = currentTime.getFullYear();
     return `${month} ${day}, ${year}`;
 }
-
-
-// ==================================================
-// local storage functions
-// ==================================================
-
-// set local storage
-export function setLocalStorage(key, value) {
-    localStorage.setItem(key, value);
-}
