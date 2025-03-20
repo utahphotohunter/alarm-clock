@@ -15,7 +15,9 @@ import { setAlarm, getAlarm } from "./alarmTime.mjs";
 // ==================================================
 
 // initial alarm
-setAlarm('8', '30', 'AM');
+if (!('alarmHour' in localStorage)) {
+    setAlarm('8', '30', 'AM');
+}
 
 
 // ==================================================
@@ -35,45 +37,47 @@ let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
 // buttons
 const startButton = document.getElementById('start'); // program start button
 const stop = document.querySelector('button'); // alarm stop button
-const newSound = document.querySelector('#new-sound'); // new sound button
 const editAlarmTime = document.querySelector('#edit-alarm'); // edit alarm button
 const applyAlarm = document.querySelector('#submit'); // button to apply user set alarm 
 const closeAlarm = document.querySelector('#close'); // button to close alarm user interface
+
+// alarm time input selectors
+let userAlarmHour = document.getElementById('hour');
+let userAlarmMinute = document.getElementById('minute');
+let userAlarmMeridian = document.getElementById('meridian');
 
 
 // ==================================================
 // page content
 // ==================================================
 
-// data displays
+// data displays on page load
 time.textContent = getTime(); // displays time
 date.textContent = getDate(); // displays date
-alarmTime.textContent = getAlarm();
+alarmTime.textContent = getAlarm(); // displays alarm time
+
+// refreshes display info
+setInterval(function() {
+    time.textContent = getTime(); // displays time
+    date.textContent = getDate(); // displays date
+    alarmTime.textContent = getAlarm(); // displays alarm time
+}, 1000);
 
 
 // ==================================================
 // listening events
 // ==================================================
 
-// changes current alarm to new random alarm
-newSound.addEventListener("click", function() {
-    selectedIndex = getRandomIndex(sounds);
-});
-
-console.log(getTime());
-console.log(getAlarm());
-
 // start program and stop alarm
 startButton.addEventListener("click", function() {
     setInterval(function() {
-        if ('2:42 PM' == getTime()) {
-            console.log(getTime());
-            playAlarm(sounds, selectedIndex, stop);
+        if (getAlarm() == getTime()) {
+            playAlarm(sounds, getRandomIndex(sounds), stop);
         }
     }, 60000);
 });
 
-// set alarm time
+// show alarm interface
 editAlarmTime.addEventListener("click", function() {
     alarmDialog.showModal();
 });
@@ -81,4 +85,9 @@ editAlarmTime.addEventListener("click", function() {
 // close alarm interface
 closeAlarm.addEventListener("click", function() {
     alarmDialog.closest();
+});
+
+// set user alarm
+applyAlarm.addEventListener("click", function() {
+    setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value);
 });

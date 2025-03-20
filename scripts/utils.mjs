@@ -26,13 +26,20 @@ export async function getRandomIndex(array) {
 export function getTime() {
     const currentTime = new Date();
     let hour = currentTime.getHours();
-    const minute = currentTime.getMinutes();
+    let minute = currentTime.getMinutes();
     let meridian = 'AM';
 
     if (hour > 12) {
         hour = hour - 12;
         meridian = 'PM';
     }
+
+    let stringMinute = minute.toString();
+
+    if (stringMinute.length < 2) {
+        minute = `0${minute}`;
+    }
+
     return `${hour}:${minute} ${meridian}`;
 }
 

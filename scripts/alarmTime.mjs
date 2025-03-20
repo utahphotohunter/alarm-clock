@@ -2,7 +2,7 @@
 
 
 // ==================================================
-// set alarm functions
+// alarm functions using local storeage
 // ==================================================
 
 // set alarm time
