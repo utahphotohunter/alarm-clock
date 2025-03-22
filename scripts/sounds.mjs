@@ -19,7 +19,7 @@ export async function getSounds() {
 }
 
 // this needs to be changed to play sound. this will be exported to main
-export async function playAlarm(data, selection, stopButton, stopCode) {
+export async function playAlarm(data, selection, stopButton) {
   const info = await data;
   const index = await selection;
   const alarm = info[index];
@@ -28,11 +28,6 @@ export async function playAlarm(data, selection, stopButton, stopCode) {
   audio.loop = true;
   audio.play();
   stopButton.addEventListener("click", function() {
-    if (stopCode = localStorage.getItem('stopCode')) {
-      audio.pause();
-    } else {
-      alert('Incorrect passcode entered.');
-    }
-    
+    audio.pause();
   });
 }

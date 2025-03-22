@@ -90,7 +90,7 @@ setInterval(function() {
 startButton.addEventListener("click", function() {
     setInterval(function() {
         if (getAlarm() == getTime()) {
-            playAlarm(sounds, getRandomIndex(sounds), submitCode, stopCodeDialog);
+            playAlarm(sounds, getRandomIndex(sounds), stop);
         }
     }, 60000);
 });
