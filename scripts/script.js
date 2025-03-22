@@ -7,15 +7,21 @@
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
+import { setStopCode, getStopCode, setHint, getHint } from './passcodeValidation.mjs';
 
 
 // ==================================================
-// initial alarm
+// initial alarm and stop code
 // ==================================================
 
 // initial alarm
 if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM');
+}
+
+// initial stop code
+if (!('stopCode' in localStorage)) {
+    setStopCode('0000');
 }
 
 
@@ -31,7 +37,9 @@ const alarmDialog = document.getElementById('alarm-interface'); // selects the a
 
 // data variables
 const sounds = getSounds(); // gets alarms in json object
-let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
+
+
+// let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
 
 // buttons
 const startButton = document.getElementById('start'); // program start button
