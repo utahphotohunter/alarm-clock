@@ -19,40 +19,43 @@
         <p>TIME TO GET UP!</p>
         <button>I'm Awake</button>
         <button id="start">Enable Alarm</button>
-        <button id="edit-alarm">Edit Alarm</button>
+        <button id="edit-alarm">Set Alarm</button>
+        <button id="edit-code">Set Passcode</button>
         <dialog id="alarm-interface">
             <form action="">
                 <label for="hour">Hour</label>
-                <input type="number" min="1" max="12" step="1" id="hour" name="hour" required>
+                <input type="number" min="1" max="12" step="1" id="hour" name="hour">
                 <label for="minute">Minute</label>
-                <input type="number" min="0" max="59" step="1" id="minute" name="minute" required>
+                <input type="number" min="0" max="59" step="1" id="minute" name="minute">
                 <label for="meridian">AM/PM</label>
-                <select name="meridian" id="meridian" required>
+                <select name="meridian" id="meridian">
                     <option value="AM" selected>AM</option>
                     <option value="PM">PM</option>
                 </select>
-                <button id="submit">Set Alarm</button>
-                <button id="close">Close</button>
+                <button id="confirm-alarm">Set Alarm</button>
+                <button id="close-alarm">Close</button>
             </form>
         </dialog>
         <dialog id="enter-passcode">
             <form action="">
                 <label for="stop-code">Enter your passcode:</label>
-                <input type="text" name="stop-code" id="stop-code" required>
-                <button id="hint">Hint</button>
+                <input type="text" name="stop-code" id="stop-code">
+                <button id="submit-code">Stop Alarm</button>
+                <button id="show-hint">Hint</button>
             </form>
         </dialog>
         <dialog id="set-passcode">
             <form action="">
                 <section>
                     <label for="user-set-code">Enter your new passcode:</label>
-                    <input type="text" name="user-set-code" id="user-set-code" required>
+                    <input type="text" name="user-set-code" id="user-set-code">
                 </section>
                 <section>
                     <label for="user-set-hint">Enter a hint for your passcode:</label>
-                    <input type="text" name="user-set-hint" id="user-set-hint" required>
+                    <input type="text" name="user-set-hint" id="user-set-hint">
                 </section>
-                <button id="code-confirm">Confirm</button>
+                <button id="confirm-code">Confirm</button>
+                <button id="close-code">Close</button>
             </form>
         </dialog>
     </main>

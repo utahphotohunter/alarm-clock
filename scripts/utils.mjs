@@ -34,6 +34,10 @@ export function getTime() {
         meridian = 'PM';
     }
 
+    if (hour == 0) {
+        hour = 12;
+    }
+
     let stringMinute = minute.toString();
 
     if (stringMinute.length < 2) {
