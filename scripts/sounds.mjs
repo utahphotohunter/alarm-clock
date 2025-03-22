@@ -18,12 +18,11 @@ export async function getSounds() {
   return data.alarms;
 }
 
-// this needs to be changed to play sound. this will be exported to main
+// play a selected alarm on loop
 export async function playAlarm(data, selection, stopButton) {
   const info = await data;
   const index = await selection;
   const alarm = info[index];
-  console.log(alarm);
   var audio = new Audio(alarm.path);
   audio.loop = true;
   audio.play();
