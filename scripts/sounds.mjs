@@ -19,14 +19,10 @@ export async function getSounds() {
 }
 
 // play a selected alarm on loop
-export async function playAlarm(data, selection, stopButton) {
+export async function getAudio(data, selection) {
   const info = await data;
   const index = await selection;
   const alarm = info[index];
   var audio = new Audio(alarm.path);
-  audio.loop = true;
-  audio.play();
-  stopButton.addEventListener("click", function() {
-    audio.pause();
-  });
+  return audio;
 }
