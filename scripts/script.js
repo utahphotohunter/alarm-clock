@@ -7,7 +7,6 @@
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { getAudio, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
-import { setStopCode, getStopCode, checkCode, setHint, getHint } from './passcodeValidation.mjs';
 
 
 // ==================================================
@@ -45,11 +44,9 @@ const sounds = getSounds(); // gets alarms in json object
 const startButton = document.getElementById('start'); // button to enable the alarm
 const stop = document.querySelector('button'); // button to stop the alarm
 const editAlarmTime = document.querySelector('#edit-alarm'); // button to open the alarm setting dialog
-const editCode = document.getElementById('edit-code'); // button to open the code and hint settings dialog
 const applyAlarm = document.querySelector('#confirm-alarm'); // button to apply user set alarm 
 const closeAlarm = document.querySelector('#close-alarm'); // button to close alarm user dialog
-const showHint = document.getElementById('show-hint'); // button to show hint for code
-const closeCode = document.getElementById('close-code'); // button to close code and hint dialog
+
 
 // alarm time input selectors
 let userAlarmHour = document.getElementById('hour'); // alarm hour input field
@@ -74,18 +71,11 @@ setInterval(function() {
 }, 1000);
 
 
-async function audioReturn() {
-    let audio = await getAudio(sounds, getRandomIndex(sounds));
-    console.log(audio);
-}
-
-audioReturn();
-
-
-
 // ==================================================
 // listening events
 // ==================================================
+
+// sounds, getRandomIndex(sounds)
 
 // start program and stop alarm
 startButton.addEventListener("click", function() {
