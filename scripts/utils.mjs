@@ -34,6 +34,10 @@ export function getTime() {
         meridian = 'PM';
     }
 
+    if (hour == 0) {
+        hour = 12;
+    }
+
     let stringMinute = minute.toString();
 
     if (stringMinute.length < 2) {
@@ -52,14 +56,4 @@ export function getDate() {
     const day = currentTime.getDate();
     const year = currentTime.getFullYear();
     return `${month} ${day}, ${year}`;
-}
-
-
-// ==================================================
-// local storage functions
-// ==================================================
-
-// set local storage
-export function setLocalStorage(key, value) {
-    localStorage.setItem(key, value);
 }

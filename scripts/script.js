@@ -4,19 +4,23 @@
 // ==================================================
 // imports
 // ==================================================
-import { getTime, getDate } from './utils.mjs';
+import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
-import { getRandomIndex } from "./utils.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
 
 
 // ==================================================
-// initial alarm
+// initial alarm and stop code
 // ==================================================
 
 // initial alarm
 if (!('alarmHour' in localStorage)) {
-    setAlarm('8', '30', 'AM');
+    setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
+}
+
+// initial stop code
+if (!('stopCode' in localStorage)) {
+    localStorage.setItem('stopCode', '0000'); // set initial stop code to 0000
 }
 
 
@@ -32,19 +36,22 @@ const alarmDialog = document.getElementById('alarm-interface'); // selects the a
 
 // data variables
 const sounds = getSounds(); // gets alarms in json object
-let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
+
+
+// let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
 
 // buttons
-const startButton = document.getElementById('start'); // program start button
-const stop = document.querySelector('button'); // alarm stop button
-const editAlarmTime = document.querySelector('#edit-alarm'); // edit alarm button
-const applyAlarm = document.querySelector('#submit'); // button to apply user set alarm 
-const closeAlarm = document.querySelector('#close'); // button to close alarm user interface
+const startButton = document.getElementById('start'); // button to enable the alarm
+const stop = document.querySelector('button'); // button to stop the alarm
+const editAlarmTime = document.querySelector('#edit-alarm'); // button to open the alarm setting dialog
+const applyAlarm = document.querySelector('#confirm-alarm'); // button to apply user set alarm 
+const closeAlarm = document.querySelector('#close-alarm'); // button to close alarm user dialog
+
 
 // alarm time input selectors
-let userAlarmHour = document.getElementById('hour');
-let userAlarmMinute = document.getElementById('minute');
-let userAlarmMeridian = document.getElementById('meridian');
+let userAlarmHour = document.getElementById('hour'); // alarm hour input field
+let userAlarmMinute = document.getElementById('minute'); // alarm minute input field
+let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian input field
 
 
 // ==================================================
@@ -68,6 +75,8 @@ setInterval(function() {
 // listening events
 // ==================================================
 
+// sounds, getRandomIndex(sounds)
+
 // start program and stop alarm
 startButton.addEventListener("click", function() {
     setInterval(function() {
@@ -84,7 +93,7 @@ editAlarmTime.addEventListener("click", function() {
 
 // close alarm interface
 closeAlarm.addEventListener("click", function() {
-    alarmDialog.closest();
+    alarmDialog.close();
 });
 
 // set user alarm
