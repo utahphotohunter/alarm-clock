@@ -79,12 +79,9 @@ setInterval(function() {
 
 // start program and stop alarm
 startButton.addEventListener("click", function() {
-    setInterval(async function() {
-        if (getAlarm() === getTime()) {
-            let audio = await getAudio(sounds, getRandomIndex(sounds));
-            audio.play();
-            checkCode();
-            audio.pause();
+    setInterval(function() {
+        if (getAlarm() == getTime()) {
+            playAlarm(sounds, getRandomIndex(sounds), stop);
         }
     }, 60000);
 });
