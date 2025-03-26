@@ -5,7 +5,7 @@
 // imports
 // ==================================================
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
-import { getAudio, getSounds } from "./sounds.mjs";
+import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
 
 
@@ -93,15 +93,10 @@ editAlarmTime.addEventListener("click", function() {
 
 // close alarm interface
 closeAlarm.addEventListener("click", function() {
-    alarmDialog.closest();
+    alarmDialog.close();
 });
 
 // set user alarm
 applyAlarm.addEventListener("click", function() {
     setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value);
-});
-
-// set user passcode
-editCode.addEventListener("click", function() {
-    setStopCode();
 });
