@@ -47,7 +47,7 @@ export function getTime() {
     return `${hour}:${minute} ${meridian}`;
 }
 
-// get current date
+// get current date formatted as 'month, day, year'
 export function getDate() {
     const currentTime = new Date();
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -56,4 +56,79 @@ export function getDate() {
     const day = currentTime.getDate();
     const year = currentTime.getFullYear();
     return `${month} ${day}, ${year}`;
+}
+
+// get date range in array with dates formatted as 'mm/dd/yyyy'
+export function getDateRange() {
+    const currentTime = new Date();
+
+    let month = currentTime.getMonth() + 1;
+    let day = currentTime.getDate();
+    let year = currentTime.getFullYear();
+
+    let oldDay;
+    let oldMonth;
+    let oldYear;
+
+    if (day > 5) {
+        oldDay = day - 5;
+        oldMonth = month;
+        oldYear = year;
+    } else if ((day < 6) && (month != 1)) {
+        oldDay = 26;
+        oldMonth = month - 1;
+        oldYear = year;
+    } else if ((day < 6) && (month == 1)) {
+        oldDay = 26;
+        oldMonth = 12;
+        oldYear = year - 1;
+    }
+
+    let strMonth = month.toString();
+    let strOldMonth = oldMonth.toString();
+    let strDay = day.toString();
+    let strOldDay = oldDay.toString();
+
+    if (strMonth.length < 2) {
+        month = `0${month}`;
+    }
+
+    if (strOldMonth.length < 2) {
+        oldMonth = `0${oldMonth}`;
+    }
+
+    if (strDay.length < 2) {
+        day = `0${day}`;
+    }
+
+    if (strOldDay.length < 2) {
+        oldDay = `0${oldDay}`;
+    }
+
+    let currentDate = `${month}/${day}/${year}`;
+    let oldDate = `${oldMonth}/${oldDay}/${oldYear}`;
+    let dateRange = [oldDate, currentDate];
+    return dateRange;
+}
+
+// get the current date in 'mm/dd/yyyy'
+export function getNumericalDate() {
+    const currentTime = new Date();
+
+    let month = currentTime.getMonth() + 1;
+    let day = currentTime.getDate();
+    let year = currentTime.getFullYear();
+    let strMonth = month.toString();
+    let strDay = day.toString();
+
+    if (strMonth.length < 2) {
+        month = `0${month}`;
+    }
+
+    if (strDay.length < 2) {
+        day = `0${day}`;
+    }
+
+    let currentDate = `${month}/${day}/${year}`;
+    return currentDate;
 }
