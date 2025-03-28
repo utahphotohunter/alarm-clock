@@ -3,57 +3,57 @@
     {
     "name":"aaaaaaaaaaaaa",
     "title":"alarm1",
-    "path":"../data/sounds/aaaaaaaaaaaaa.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/aaaaaaaaaaaaa.mp3"
     },
     {
     "name":"annoying_alarm_clock",
     "title":"alarm2",
-    "path":"../data/sounds/annoying_alarm_clock.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/annoying_alarm_clock.mp3"
     },
     {
     "name":"extreme_alarm_clock",
     "title":"alarm3",
-    "path":"../data/sounds/extreme_alarm_clock.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/extreme_alarm_clock.mp3"
     },
     {
     "name":"morning_alarm",
     "title":"alarm4",
-    "path":"../data/sounds/morning_alarm.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/morning_alarm.mp3"
     },
     {
     "name":"muzical_rooster",
     "title":"alarm5",
-    "path":"../data/sounds/muzical_rooster.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/muzical_rooster.mp3"
     },
     {
     "name":"not_late",
     "title":"alarm6",
-    "path":"../data/sounds/not_late.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/not_late.mp3"
     },
     {
     "name":"old_alarm_clock",
     "title":"alarm7",
-    "path":"../data/sounds/old_alarm_clock.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/old_alarm_clock.mp3"
     },
     {
     "name":"pookie_wake_up",
     "title":"alarm8",
-    "path":"../data/sounds/pookie_wake_up.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/pookie_wake_up.mp3"
     },
     {
     "name":"rooster",
     "title":"alarm9",
-    "path":"../data/sounds/rooster.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/rooster.mp3"
     },
     {
     "name":"troll_gibberish_yell",
     "title":"alarm10",
-    "path":"../data/sounds/troll_gibberish_yell.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/troll_gibberish_yell.mp3"
     },
     {
     "name":"wilhelm_scream",
     "title":"alarm11",
-    "path":"../data/sounds/wilhelm_scream.mp3"
+    "path":"https://utahphotohunter.github.io/alarm-clock/data/sounds/wilhelm_scream.mp3"
     }
 ]
 }
