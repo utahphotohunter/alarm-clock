@@ -11,8 +11,8 @@ function getRandom(max) {
 }
 
 // gets random index from provided array
-export async function getRandomIndex(array) {
-  const list = await array;
+export function getRandomIndex(array) {
+  const list = array;
   const selection = getRandom(list.length);
   return selection;
 }
