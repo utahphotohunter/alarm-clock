@@ -1,0 +1,29 @@
+{
+"news":[
+    {
+    "source":"real-time",
+    "url":"https://real-time-news-data.p.rapidapi.com/topic-news-by-section?topic=TECHNOLOGY&section=CAQiSkNCQVNNUW9JTDIwdk1EZGpNWFlTQldWdUxVZENHZ0pKVENJT0NBUWFDZ29JTDIwdk1ETnliSFFxQ2hJSUwyMHZNRE55YkhRb0FBKi4IACoqCAoiJENCQVNGUW9JTDIwdk1EZGpNWFlTQldWdUxVZENHZ0pKVENnQVABUAE&limit=500&country=US&lang=en",
+    "host":"real-time-news-data.p.rapidapi.com"
+    },
+    {
+    "source":"yahoo-finance",
+    "url":"https://yahoo-finance166.p.rapidapi.com/api/autocomplete?query=AA",
+    "host":"yahoo-finance166.p.rapidapi.com"
+    }, 
+    {
+    "source":"mlb-live",
+    "url":"https://tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com/getMLBNews?recentNews=true&maxItems=10",
+    "host":"tank01-mlb-live-in-game-real-time-statistics.p.rapidapi.com"
+    },
+    {
+    "source":"nhl-live",
+    "url":"https://tank01-nhl-live-in-game-real-time-statistics-nhl.p.rapidapi.com/getNHLNews?fantasyNews=true",
+    "host":"tank01-nhl-live-in-game-real-time-statistics-nhl.p.rapidapi.com"
+    },
+    {
+    "source":"nba-latest",
+    "url":"https://nba-latest-news.p.rapidapi.com/articles",
+    "host":"nba-latest-news.p.rapidapi.com"
+    }
+]
+}

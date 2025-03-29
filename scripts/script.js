@@ -4,13 +4,14 @@
 // ==================================================
 // imports
 // ==================================================
-import { getTime, getDate, getRandomIndex } from './utils.mjs';
+import { getTime, getDate, checkDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
+import { fetchRapidApi } from "./news/news.mjs";
 
 
 // ==================================================
-// initial alarm and stop code
+// initial alarm
 // ==================================================
 
 // initial alarm
@@ -18,10 +19,13 @@ if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
 
-// initial stop code
-if (!('stopCode' in localStorage)) {
-    localStorage.setItem('stopCode', '0000'); // set initial stop code to 0000
-}
+
+// ==================================================
+// accessed today checker
+// ==================================================
+
+// checks date page was last accessed
+let accessedToday = checkDate();
 
 
 // ==================================================
