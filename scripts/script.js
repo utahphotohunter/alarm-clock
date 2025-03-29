@@ -70,8 +70,6 @@ setInterval(function() {
 // listening events
 // ==================================================
 
-// sounds, getRandomIndex(sounds)
-
 // start program and stop alarm
 startButton.addEventListener("click", function() {
     setInterval(function() {
