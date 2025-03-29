@@ -4,14 +4,14 @@
 // ==================================================
 // imports
 // ==================================================
-import { getTime, getDate, checkDate, getRandomIndex } from './utils.mjs';
+import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
-import { fetchRapidApi } from "./news/news.mjs";
+import { setNewsPreferences } from "./news.mjs";
 
 
 // ==================================================
-// initial alarm
+// initial settings on first page load
 // ==================================================
 
 // initial alarm
@@ -19,13 +19,8 @@ if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
 
-
-// ==================================================
-// accessed today checker
-// ==================================================
-
-// checks date page was last accessed
-let accessedToday = checkDate();
+// set news preferences
+setNewsPreferences();
 
 
 // ==================================================
@@ -65,13 +60,13 @@ let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian i
 // data displays on page load
 time.textContent = getTime(); // displays time
 date.textContent = getDate(); // displays date
-alarmTime.textContent = getAlarm(); // displays alarm time
+alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 
 // refreshes display info
 setInterval(function() {
     time.textContent = getTime(); // displays time
     date.textContent = getDate(); // displays date
-    alarmTime.textContent = getAlarm(); // displays alarm time
+    alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 }, 1000);
 
 
