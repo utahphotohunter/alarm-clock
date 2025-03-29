@@ -18,11 +18,6 @@ if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
 
-// initial stop code
-if (!('stopCode' in localStorage)) {
-    localStorage.setItem('stopCode', '0000'); // set initial stop code to 0000
-}
-
 
 // ==================================================
 // variables
@@ -83,7 +78,7 @@ startButton.addEventListener("click", function() {
         if (getAlarm() == getTime()) {
             playAlarm(sounds, getRandomIndex(sounds), stop);
         }
-    }, 10000);
+    }, 60000);
 });
 
 // show alarm interface
