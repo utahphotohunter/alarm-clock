@@ -13,7 +13,7 @@ function getRandom(max) {
 // gets random index from provided array
 export function getRandomIndex(array) {
   const list = array;
-  const selection = getRandom(list.length);
+  const selection = getRandom(list.length - 1);
   return selection;
 }
 
