@@ -83,7 +83,7 @@ startButton.addEventListener("click", function() {
         if (getAlarm() == getTime()) {
             playAlarm(sounds, getRandomIndex(sounds), stop);
         }
-    }, 60000);
+    }, 10000);
 });
 
 // show alarm interface
