@@ -51,7 +51,7 @@ export function setNewsPreferences() {
 
 // get news source
 export async function getNewsSource() {
-	const url = "../data/newsSources.json";
+	const url = "https://utahphotohunter.github.io/alarm-clock/data/newsSources.json";
 	const response = await fetch(url);
 	const result = await response.json();
 	const news = result.news;
