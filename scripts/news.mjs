@@ -5,6 +5,7 @@
 // imports
 // ==================================================
 import { rapidApiKey } from "./keys/keys.mjs";
+import { capitalize } from "./utils.mjs";
 
 
 // ==================================================
@@ -19,6 +20,45 @@ const newsOptions = ['varied', 'finance', 'baseball', 'basketball', 'hockey'];
 
 export function getNewsOptions() {
 	return newsOptions;
+}
+
+
+// ==================================================
+// make news preference dialog
+// ==================================================
+
+// create news preference dialog
+export function makeNewsPreferenceDialog() {
+	let main = document.querySelector('main');
+	let newsDialog = document.createElement('dialog');
+	newsDialog.id = 'news-preferences';
+	newsDialog.innerHTML = '<h3>What kind of news do you want to see?</h3>';
+	main.appendChild(newsDialog);
+
+	let newsForm = document.createElement('form');
+	newsDialog.appendChild(newsForm);
+
+	newsOptions.forEach(option => {
+		let input = document.createElement('input');
+		input.type = 'checkbox';
+		input.id = option;
+		input.name = option;
+		input.value = option;
+
+		let label = document.createElement('label');
+		label.htmlFor = option;
+		label.textContent = capitalize(option);
+
+		let breakElement = document.createElement('br');
+		newsForm.appendChild(input);
+		newsForm.appendChild(label);
+		newsForm.appendChild(breakElement);
+	});
+
+	let button = document.createElement('button');
+	button.id = 'close-news-preferences';
+	button.textContent = 'Close';
+	newsForm.appendChild(button);
 }
 
 

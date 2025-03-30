@@ -147,3 +147,13 @@ export function checkDate() {
     }
     return match;
 }
+
+
+// ==================================================
+// formatting functions
+// ==================================================
+
+// capitalize a word
+export function capitalize(word) {
+  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}

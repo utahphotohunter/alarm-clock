@@ -7,7 +7,7 @@
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
-import { setNewsPreferences } from "./news.mjs";
+import { setNewsPreferences, makeNewsPreferenceDialog } from "./news.mjs";
 
 
 // ==================================================
@@ -18,6 +18,9 @@ import { setNewsPreferences } from "./news.mjs";
 if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
+
+// create news preference dialog
+makeNewsPreferenceDialog();
 
 // set news preferences
 setNewsPreferences();
