@@ -4,7 +4,7 @@
 // ==================================================
 // sound data
 // ==================================================
-const url = '../data/alarm.json';
+const url = 'https://utahphotohunter.github.io/alarm-clock/data/alarm.json';
 
 
 // ==================================================
