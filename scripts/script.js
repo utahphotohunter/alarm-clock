@@ -10,7 +10,7 @@ import { setAlarm, getAlarm } from "./alarmTime.mjs";
 
 
 // ==================================================
-// initial alarm and stop code
+// initial settings on first page load
 // ==================================================
 
 // initial alarm
@@ -56,13 +56,13 @@ let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian i
 // data displays on page load
 time.textContent = getTime(); // displays time
 date.textContent = getDate(); // displays date
-alarmTime.textContent = getAlarm(); // displays alarm time
+alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 
 // refreshes display info
 setInterval(function() {
     time.textContent = getTime(); // displays time
     date.textContent = getDate(); // displays date
-    alarmTime.textContent = getAlarm(); // displays alarm time
+    alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 }, 1000);
 
 

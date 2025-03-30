@@ -51,7 +51,6 @@ export function getTime() {
 export function getDate() {
     const currentTime = new Date();
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
     const month = months[currentTime.getMonth()];
     const day = currentTime.getDate();
     const year = currentTime.getFullYear();
@@ -131,4 +130,20 @@ export function getNumericalDate() {
 
     let currentDate = `${month}/${day}/${year}`;
     return currentDate;
+}
+
+// shows if page has already been accessed today - returns true or false
+export function checkDate() {
+    let currentDate = getDate();
+    let match;
+    if (!localStorage.getItem('storedDate')) {
+        localStorage.setItem('storedDate', currentDate);
+        match = false;
+    } else if (currentDate == localStorage.getItem('storedDate')) {
+        match = true;
+    } else if (currentDate != storedDate) {
+        localStorage.setItem('storedDate', currentDate);
+        match = false;
+    }
+    return match;
 }
