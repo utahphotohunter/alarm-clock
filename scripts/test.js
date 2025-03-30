@@ -1,0 +1,55 @@
+import { getNewsOptions } from "./news.mjs";
+
+
+async function testFetch(url, source, previouslyRun) {
+    try {
+            if (previouslyRun == 'False') {
+                const response = await fetch(url);
+                const newsArticleJson = await response.json();
+                const newsArticleString = JSON.stringify(newsArticleJson);
+
+                let storedData = localStorage.getItem(source);
+
+                let storedDataJson = JSON.parse(storedData);
+                storedDataJson.accessedToday = 'True';
+
+                storedDataJson.newsArticles = newsArticleString;
+                let storedDataString = JSON.stringify(storedDataJson);
+
+                localStorage.setItem(source, storedDataString);
+                console.log('got data from api');
+                console.log(newsArticleString);
+                console.log(newsArticleJson);
+            } else if (previouslyRun == 'True') {
+                const storedDataString = localStorage.getItem(source);
+                const storedDataJson = JSON.parse(storedDataString);
+                const newsArticles = storedDataJson.newsArticles;
+                const newsArticlesJson = JSON.parse(newsArticles);
+                console.log('got data from local storeage');
+                console.log(storedDataString);
+                console.log(storedDataJson)
+                console.log(newsArticles);
+                console.log(newsArticlesJson);
+            }
+        } catch (error) {
+            console.error(error);
+        }
+}
+
+let url = "https://utahphotohunter.github.io/alarm-clock/data/newsSources.json";
+
+const options = getNewsOptions();
+
+function go() {
+    options.forEach(option => {
+        let localStorageString = localStorage.getItem(option);
+        let localStorageJson = JSON.parse(localStorageString);
+        let status = localStorageJson.accessedToday;
+        console.log(status);
+        testFetch(url, option, status);
+    });
+}
+
+go();
+
+

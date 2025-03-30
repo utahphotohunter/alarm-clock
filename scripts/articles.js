@@ -16,3 +16,5 @@ import { checkDate } from './utils.mjs';
 let accessedToday = checkDate(); // checks date page was last accessed
 const newsOptions = getNewsOptions(); // array of news topic options
 const news = getNewsSource(); // json of api host's and url's in newsSources.json
+
+

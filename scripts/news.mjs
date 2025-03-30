@@ -70,11 +70,21 @@ export function makeNewsPreferenceDialog() {
 export function setNewsPreferences() {
 	const newsDialog = document.querySelector('#news-preferences');
 	if (!localStorage.getItem('news-set')) {
+		
 		newsDialog.showModal();
 		newsOptions.forEach(option => {
-			localStorage.setItem(option, 'False');
+			let info = `{"name":"${option}","prefered":"False","accessedToday":"False","newsArticles":"pending"}`;
+			localStorage.setItem(option, info);
+			let counter = 0;
 			document.getElementById(option).addEventListener('change', function() {
-				localStorage.setItem(option, 'True');
+				counter = counter + 1;
+				if ((counter % 2) != 0) {
+					info = `{"name":"${option}","prefered":"True","accessedToday":"False","newsArticles":"pending"}`;
+					localStorage.setItem(option, info);
+				} else {
+					info = `{"name":"${option}","prefered":"False","accessedToday":"False","newsArticles":"pending"}`;
+					localStorage.setItem(option, info);
+				}
 				localStorage.setItem('news-set', 'True');
 			});
 		});
@@ -111,18 +121,25 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 	try {
 		if (!previouslyRun) {
 			const response = await fetch(url, options);
-			const jsonObject = await response.json();
-			const jsonString = JSON.stringify(jsonObject);
-			localStorage.setItem(`${source}-news`, jsonString);
+			const newsArticleJson = await response.json();
+			const newsArticleString = JSON.stringify(newsArticleJson);
+
+			let storedData = localStorage.getItem(source);
+
+			let storedDataJson = JSON.parse(storedData);
+			storedDataJson.news = newsArticleString;
+			let storedDataString = JSON.stringify(storedDataJson);
+
+			localStorage.setItem(source, storedDataString);
 			console.log('got data from api');
-			console.log(jsonObject);
-			return jsonObject;
+			console.log(newsArticleString);
+			console.log(newsArticleJson);
 		} else if (previouslyRun) {
-			const jsonString = localStorage.getItem(`${source}-news`);
-			const jsonObject = JSON.parse(jsonString);
+			const storedDataString = localStorage.getItem(source);
+			const storedDataJson = JSON.parse(storedDataString);
 			console.log('got data from local storeage');
-			console.log(jsonObject);
-			return jsonObject;
+			console.log(storedDataString);
+			console.log(storedDataJson)
 		}
 	} catch (error) {
 		console.error(error);
