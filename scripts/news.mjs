@@ -5,7 +5,7 @@
 // imports
 // ==================================================
 import { rapidApiKey } from "./keys/keys.mjs";
-import { capitalize } from "./utils.mjs";
+import { capitalize, getRandomIndex } from "./utils.mjs";
 
 
 // ==================================================
@@ -73,16 +73,16 @@ export function setNewsPreferences() {
 		
 		newsDialog.showModal();
 		newsOptions.forEach(option => {
-			let info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
+			let info = `{"name":"${option}","preferred":"False","accessedToday":"False","news":"pending"}`;
 			localStorage.setItem(option, info);
 			let counter = 0;
 			document.getElementById(option).addEventListener('change', function() {
 				counter = counter + 1;
 				if ((counter % 2) != 0) {
-					info = `{"name":"${option}","preferred":"True","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
+					info = `{"name":"${option}","preferred":"True","accessedToday":"False","news":"pending"}`;
 					localStorage.setItem(option, info);
 				} else {
-					info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
+					info = `{"name":"${option}","preferred":"False","accessedToday":"False","news":"pending"}`;
 					localStorage.setItem(option, info);
 				}
 				localStorage.setItem('news-set', 'True');
@@ -148,27 +148,28 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 		}
 	};
 	try {
-		if (!previouslyRun) {
-			const response = await fetch(url, options);
-			const newsArticleJson = await response.json();
-			const newsArticleString = JSON.stringify(newsArticleJson);
+		if (previouslyRun == 'False') {
+			// const response = await fetch(url, options); // fetch data from api
+			const response = await fetch(url); // temp line for testing
+			const newsArticleJson = await response.json(); // make data into json
+			const newsArticleString = JSON.stringify(newsArticleJson); // make json string
 
-			let storedData = localStorage.getItem(source);
+			let storedData = localStorage.getItem(source); // get local storage for news source
+			let storedDataJson = JSON.parse(storedData); // turn local storeage string into json
+			storedDataJson.accessedToday = 'True'; // sets accessedToday to True
+			storedDataJson.news = newsArticleString; // edit stored json to update news element
+			let storedDataString = JSON.stringify(storedDataJson); // turn edited json into string
+			localStorage.setItem(source, storedDataString); // store new json string in local storage
+			
+			return newsArticleJson; // return json news element
 
-			let storedDataJson = JSON.parse(storedData);
-			storedDataJson.news = newsArticleString;
-			let storedDataString = JSON.stringify(storedDataJson);
+		} else if (previouslyRun == 'True') {
+			const storedDataString = localStorage.getItem(source); // get local storage for news source
+			// console.log(storedDataString);
+			const storedDataJson = JSON.parse(storedDataString); // turn local storage string into json
+			const storedNews = JSON.parse(storedDataJson.news); // turn news string element from local storage json object into json
 
-			localStorage.setItem(source, storedDataString);
-			console.log('got data from api');
-			console.log(newsArticleString);
-			console.log(newsArticleJson);
-		} else if (previouslyRun) {
-			const storedDataString = localStorage.getItem(source);
-			const storedDataJson = JSON.parse(storedDataString);
-			console.log('got data from local storeage');
-			console.log(storedDataString);
-			console.log(storedDataJson)
+			return storedNews; // return parsed news element from local storage
 		}
 	} catch (error) {
 		console.error(error);
@@ -180,23 +181,34 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 // format data
 // ==================================================
 
-// formats the data into usable form from random news api
-export function formatVariedNews() {
+// formats the data into usable form if news source is the 'varied' option
+export async function formatVariedNews(json) {
 	let preferredSources = getPreferredSources()
-	if (preferredSources.length == 1) {
-		console.log(preferredSources[0]);
-	} else {
-		preferredSources.forEach(source => {
-			
-		});
+	let count = 0;
+	let selectedNews = [];
+	let news = await json;
+	let articles = news.data
+	if ((preferredSources.length == 1) && preferredSources.includes('varied')) {
+		while (count < 5) {
+			count = count + 1;
+			let index = await getRandomIndex(articles);
+			let article = articles[index];
+			selectedNews.push(article);
+		}
+		console.log(selectedNews);
 
 
 
+	} else if (preferredSources.includes('varied')) {
+		console.log('includes varied')
+		while (count < 3) {
+			count = count + 1;
+			let index = await getRandomIndex(articles);
+			let article = articles[index];
+			selectedNews.push(article);
+		}
+		console.log(selectedNews);
 	}
-
-
-
-
 }
 
 

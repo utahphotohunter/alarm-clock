@@ -1,4 +1,4 @@
-import { getNewsOptions, formatVariedNews } from "./news.mjs";
+import { getNewsOptions, formatVariedNews, fetchRapidApi } from "./news.mjs";
 import { getRandomIndex } from "./utils.mjs";
 
 
@@ -37,8 +37,7 @@ async function testFetch(url, source, previouslyRun) {
         }
 }
 
-let url = "https://utahphotohunter.github.io/alarm-clock/data/newsSources.json";
-let testUrl = "https://utahphotohunter.github.io/alarm-clock/data/testData.json";
+let testUrl = "https://utahphotohunter.github.io/alarm-clock/data/variedTest.json";
 
 const options = getNewsOptions();
 
@@ -58,15 +57,14 @@ function go() {
 async function fetchTestData() {
     const response = await fetch(testUrl);
     const data = await response.json();
-    // console.log(data);
     let selectedNews = []
 
     let count = 0;
-    while (count < 4) {
+    while (count < 3) {
         count = count + 1;
         let index = await getRandomIndex(data.data);
         let article = data.data[index];
-        // console.log(article);
+        let articleString = 
         selectedNews.push(article);
 
     }
@@ -74,6 +72,14 @@ async function fetchTestData() {
 
 }
 
-fetchTestData();
+// fetchTestData();
 
-formatVariedNews();
+// formatVariedNews();
+
+let rapidUrl = "https://utahphotohunter.github.io/alarm-clock/data/variedTest.json";
+
+let rapidHost = "real-time-news-data.p.rapidapi.com";
+
+let news = fetchRapidApi('True', rapidUrl, rapidHost, 'varied');
+
+formatVariedNews(news);
