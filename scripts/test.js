@@ -37,7 +37,7 @@ async function testFetch(url, source, previouslyRun) {
 }
 
 let url = "https://utahphotohunter.github.io/alarm-clock/data/newsSources.json";
-let testUrl = 'https://utahphotohunter.github.io/alarm-clock/data/testData.json';
+let testUrl = "https://utahphotohunter.github.io/alarm-clock/data/testData.json";
 
 const options = getNewsOptions();
 
@@ -51,6 +51,13 @@ function go() {
     });
 }
 
-go();
+// go();
 
 
+async function fetchTestData() {
+    const response = await fetch(testUrl);
+    const data = await response.json();
+    console.log(data);
+}
+
+fetchTestData();
