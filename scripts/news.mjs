@@ -96,6 +96,22 @@ export function setNewsPreferences() {
 
 
 // ==================================================
+// reset api lockout
+// ==================================================
+
+// reset api lockout
+export function resetApiLockout() {
+	newsOptions.forEach(option => {
+		let storedInfo = localStorage.getItem(option);
+		let storedInfoJson = JSON.parse(storedInfo);
+		storedInfoJson.accessedToday = 'False';
+		let storedInfoString = JSON.stringify(storedInfoJson);
+		localStorage.setItem(option, storedInfoString);
+	});
+}
+
+
+// ==================================================
 // retrieve data
 // ==================================================
 

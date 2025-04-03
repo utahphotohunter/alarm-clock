@@ -26,9 +26,9 @@ async function testFetch(url, source, previouslyRun) {
                 const newsArticles = storedDataJson.newsArticles;
                 const newsArticlesJson = JSON.parse(newsArticles);
                 console.log('got data from local storeage');
-                console.log(storedDataString);
+                // console.log(storedDataString);
                 console.log(storedDataJson)
-                console.log(newsArticles);
+                // console.log(newsArticles);
                 console.log(newsArticlesJson);
             }
         } catch (error) {
@@ -37,6 +37,7 @@ async function testFetch(url, source, previouslyRun) {
 }
 
 let url = "https://utahphotohunter.github.io/alarm-clock/data/newsSources.json";
+let testUrl = 'https://utahphotohunter.github.io/alarm-clock/data/testData.json';
 
 const options = getNewsOptions();
 
@@ -45,8 +46,8 @@ function go() {
         let localStorageString = localStorage.getItem(option);
         let localStorageJson = JSON.parse(localStorageString);
         let status = localStorageJson.accessedToday;
-        console.log(status);
-        testFetch(url, option, status);
+        // console.log(status);
+        testFetch(url, option, 'False');
     });
 }
 

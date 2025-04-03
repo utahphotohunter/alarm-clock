@@ -7,7 +7,7 @@
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from "./sounds.mjs";
 import { setAlarm, getAlarm } from "./alarmTime.mjs";
-import { setNewsPreferences, makeNewsPreferenceDialog } from "./news.mjs";
+import { setNewsPreferences, makeNewsPreferenceDialog, resetApiLockout } from "./news.mjs";
 
 
 // ==================================================
@@ -84,8 +84,10 @@ startButton.addEventListener("click", function() {
     setInterval(function() {
         if (getAlarm() == getTime()) {
             playAlarm(sounds, getRandomIndex(sounds), stop);
+        } else if (getTime() == '3:30 AM') {
+            resetApiLockout();
         }
-    }, 60000);
+    });
 });
 
 // show alarm interface
