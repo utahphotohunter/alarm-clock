@@ -1,4 +1,4 @@
-import { getNewsOptions, formatRandomNews } from "./news.mjs";
+import { getNewsOptions, formatVariedNews } from "./news.mjs";
 import { getRandomIndex } from "./utils.mjs";
 
 
@@ -76,4 +76,4 @@ async function fetchTestData() {
 
 fetchTestData();
 
-formatRandomNews();
+formatVariedNews();

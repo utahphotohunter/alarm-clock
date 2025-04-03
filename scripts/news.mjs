@@ -181,7 +181,7 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 // ==================================================
 
 // formats the data into usable form from random news api
-export function formatRandomNews() {
+export function formatVariedNews() {
 	let preferredSources = getPreferredSources()
 	if (preferredSources.length == 1) {
 		console.log(preferredSources[0]);
