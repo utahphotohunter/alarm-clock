@@ -182,13 +182,37 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 // ==================================================
 
 // formats the data into usable form if news source is the 'varied' option
-export async function formatVariedNews(json) {
-	let preferredSources = getPreferredSources()
+// export async function formatVariedNews(json) {
+// 	let preferredSources = getPreferredSources();
+// 	let count = 0;
+// 	let selectedNews = [];
+// 	let news = await json;
+// 	let articles = news.data;
+// 	if ((preferredSources.length == 1) && preferredSources.includes('varied')) {
+// 		while (count < 5) {
+// 			count = count + 1;
+// 			let index = await getRandomIndex(articles);
+// 			let article = articles[index];
+// 			selectedNews.push(article);
+// 		}
+// 		console.log(selectedNews);
+// 	} else if (preferredSources.includes('varied')) {
+// 		console.log('includes varied')
+// 		while (count < 3) {
+// 			count = count + 1;
+// 			let index = await getRandomIndex(articles);
+// 			let article = articles[index];
+// 			selectedNews.push(article);
+// 		}
+// 		console.log(selectedNews);
+// 	}
+// }
+
+async function articleQty(source, articles) {
+	let preferredSources = getPreferredSources();
 	let count = 0;
-	let selectedNews = [];
-	let news = await json;
-	let articles = news.data
-	if ((preferredSources.length == 1) && preferredSources.includes('varied')) {
+	let selectedNews = []
+	if ((preferredSources.length == 1) && preferredSources.includes(source)) {
 		while (count < 5) {
 			count = count + 1;
 			let index = await getRandomIndex(articles);
@@ -196,11 +220,8 @@ export async function formatVariedNews(json) {
 			selectedNews.push(article);
 		}
 		console.log(selectedNews);
-
-
-
-	} else if (preferredSources.includes('varied')) {
-		console.log('includes varied')
+	} else if (preferredSources.includes(source)) {
+		console.log(`includes ${source}`);
 		while (count < 3) {
 			count = count + 1;
 			let index = await getRandomIndex(articles);
@@ -211,5 +232,16 @@ export async function formatVariedNews(json) {
 	}
 }
 
+export async function formatBaseballNews(json) {
+	let news = await json;
+	let articles = news.body;
+	articleQty('baseball', articles)
+}
 
-
+// formats the data into usable form if news source is the 'varied' option
+export async function formatVariedNews(json) {
+	let news = await json;
+	// console.log(news);
+	let articles = news.data;
+	articleQty('varied', articles)
+}
