@@ -1,0 +1,1364 @@
+{
+  "status": "OK",
+  "request_id": "8247b49b-1871-4702-a067-f372158ddc6f",
+  "data": [
+    {
+      "title": "Amazon targets April 9 launch of first Kuiper internet satellites",
+      "link": "https://www.reuters.com/business/retail-consumer/amazon-targets-april-9-launch-first-kuiper-internet-satellites-2025-04-02/",
+      "snippet": "Amazon.com said on Wednesday it plans to launch the first 27 satellites for its Project Kuiper internet network next week, pinning down a ...",
+      "photo_url": "https://www.reuters.com/resizer/v2/5HMH7NFAGNNRTDGH42PL72ES6U.jpg?auth=5208cf50858279e44c9fcf04ce1edc88672393d6727a0ff7b888b1e24f19c790&width=6500&quality=80",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNUpSMFE1UjNKVFZIQktlazFrVFJEQkF4aXFCU2dLTWdNQm9Bbw=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T18:56:15.000Z",
+      "authors": [
+        "Joey Roulette"
+      ],
+      "source_url": "https://www.reuters.com",
+      "source_name": "Reuters",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDM0psZFhSbGNuTXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUY4M2JqRTRaeElDWlc0b0FBUAE",
+          "topic_name": "Joey Roulette"
+        }
+      ],
+      "sub_articles": [
+        {
+          "title": "Here’s what to expect from Project Kuiper’s first full-scale satellite launch",
+          "link": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-internet-first-launch",
+          "photo_url": "https://assets.aboutamazon.com/03/22/e2498950415e9b64b50aa21f6dc6/about-amazon-hero-archive004-aa-kuiper-launch-comet3-2539-hero-8109x5409.jpg",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNHlNRlpFUjFsVFZISk5NbmhCVFJDb0FSaXNBaWdCTWdZUlVJSzEwQUk=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-04-02T17:02:35.000Z",
+          "authors": [],
+          "source_url": "https://www.aboutamazon.com",
+          "source_name": "AboutAmazon.com",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.aboutamazon.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMkZpYjNWMFlXMWhlbTl1TG1OdmJTZ0FQAQ",
+          "related_topics": []
+        },
+        {
+          "title": "Amazon to begin deploying rival satellites to Starlink this month",
+          "link": "https://www.ft.com/content/e005dd86-db17-4809-9496-f60b1468f3ea",
+          "photo_url": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4d389567-d02f-459e-a202-8452a16141ed.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iI0NnNURSemhoWDJ0TFdYQnNZak5ZVFJDS0F4aThCU2dLTWdB=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-04-02T20:37:02.000Z",
+          "authors": [
+            "Peggy Hollinger"
+          ],
+          "source_url": "https://www.ft.com",
+          "source_name": "Financial Times",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqHggKIhhDQklTREFnTWFnZ0tCbVowTG1OdmJTZ0FQAQ",
+          "related_topics": [
+            {
+              "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ4Ym1Od1ltdDJaQklDWlc0b0FBUAE",
+              "topic_name": "Peggy Hollinger"
+            }
+          ]
+        },
+        {
+          "title": "ULA Atlas V Kuiper 1",
+          "link": "https://www.kennedyspacecenter.com/event/ula-atlas-v-kuiper-1-ka-01/",
+          "photo_url": "https://res.cloudinary.com/kennedy-space-center/image/upload/ar_4:3%2Cc_fill%2Cg_auto%2Cw_400/q_auto/f_auto/EVENT_ULA_AtlasV_Kuiper1KA01?_a=DATAdtXwZAA0",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNURaelZmWXpGS2VVazRPRVozVFJDc0FoaVFBeWdLTWdZSmM1UnNyUVk=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-03-25T19:29:08.000Z",
+          "authors": [],
+          "source_url": "https://www.kennedyspacecenter.com",
+          "source_name": "kennedyspacecenter.com",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.kennedyspacecenter.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqNAgKIi5DQklTSEFnTWFoZ0tGbXRsYm01bFpIbHpjR0ZqWldObGJuUmxjaTVqYjIwb0FBUAE",
+          "related_topics": []
+        }
+      ],
+      "story_id": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ppdGUzRERSRlpyVktfSFJldl9DZ0FQAQ"
+    },
+    {
+      "title": "Visualized: Daily Internet Activity in 2025",
+      "link": "https://www.visualcapitalist.com/visualized-daily-internet-activity-in-2025/",
+      "snippet": "Discover the scale of daily internet activity across platforms like email, Google, and Zoom in this data-driven infographic.",
+      "photo_url": "https://www.visualcapitalist.com/wp-content/uploads/2025/04/Daily_Internet_Activity-SITE.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWZiazFTWjFvMk1YTlRha0ppVFJDTUJSaldBeWdLTWdhQmtaQ2p0Z1k=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T19:15:23.000Z",
+      "authors": [
+        "Marcus Lu"
+      ],
+      "source_url": "https://www.visualcapitalist.com",
+      "source_name": "Visual Capitalist",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.visualcapitalist.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMQgKIitDQklTR2dnTWFoWUtGSFpwYzNWaGJHTmhjR2wwWVd4cGMzUXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ0ZG5RMmVYWnFlaElDWlc0b0FBUAE",
+          "topic_name": "Marcus Lu"
+        }
+      ]
+    },
+    {
+      "title": "Pierre Novellie: the 10 funniest things I have ever seen (on the internet)",
+      "link": "https://www.theguardian.com/culture/2025/apr/03/pierre-novellie-the-10-funniest-things-i-have-ever-seen-on-the-internet",
+      "snippet": "The UK comedian fossicks through the sands of internet time to find comedic gems, from accidental hits and deleted jokes to bewildering scat ...",
+      "photo_url": "https://i.guim.co.uk/img/media/67c9039a06d3d2ac4dbe583cc5411e5ddeb6e8ab/0_413_1535_920/master/1535.jpg?width=465&dpr=1&s=none&crop=none",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUxVWEJ0Ym5Kd2VrZFhYM1JwVFJDWEFoalJBeWdLTWdhdFpZN09LUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T14:00:00.000Z",
+      "authors": [
+        "Pierre Novellie"
+      ],
+      "source_url": "https://www.theguardian.com",
+      "source_name": "The Guardian",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEM1JvWldkMVlYSmthV0Z1TG1OdmJTZ0FQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTlRJMGVYUmlNUklDWlc0b0FBUAE",
+          "topic_name": "Pierre Novellie"
+        }
+      ]
+    },
+    {
+      "title": "Berkshire DA, Kids' Place Launch Internet Safety Programming",
+      "link": "https://www.iberkshires.com/story/78509/Berkshire-DA-Kids-Place-Launch-Internet-Safety-Programming.html",
+      "snippet": "PITTSFIELD, Mass. — The Berkshire District Attorney's Office wants to break the silence about virtual child abuse that predators thrive on.",
+      "photo_url": "https://www.iberkshires.com/images/feature/1743565132.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNHdPVTVtZDJ4b1pXUjJSMnAyVFJDb0FSaXNBaWdCTWdhWk00NUpJUW8=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T09:45:00.000Z",
+      "authors": [],
+      "source_url": "https://www.iberkshires.com",
+      "source_name": "iBerkshires.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.iberkshires.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMmxpWlhKcmMyaHBjbVZ6TG1OdmJTZ0FQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "T-Mobile and EQT Close Joint Venture to Acquire Lumos and Expand Fiber Internet Access",
+      "link": "https://www.businesswire.com/news/home/20250331828341/en/T-Mobile-and-EQT-Close-Joint-Venture-to-Acquire-Lumos-and-Expand-Fiber-Internet-Access",
+      "snippet": "The partnership will expand fiber to millions of customers and bring even more capable broadband options, greater value, and benefits to ...",
+      "photo_url": "https://mms.businesswire.com/media/20250331828341/en/2425821/5/NR_HERO_T-Fiber-Lumos_nowpartof_logo_TMO_w-R_RGB_Horiz_PRI_on-M_1280x640.jpg?download=1",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNVhjMWRpYURkSWJrNW1Sa1ZXVFJDSUF4aVBCaWdLTWdhQnNKUVNPUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T13:52:00.000Z",
+      "authors": [],
+      "source_url": "https://www.businesswire.com",
+      "source_name": "Business Wire",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.businesswire.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFR0oxYzJsdVpYTnpkMmx5WlM1amIyMG9BQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Myanmar’s Internet Censorship Limits Information About Quake",
+      "link": "https://www.nytimes.com/2025/03/28/world/asia/myanmar-earthquake-internet-censorship.html",
+      "snippet": "Since 2021, the ruling military junta has severely restricted the internet and cut access to social media, digitally isolating the country.",
+      "photo_url": "https://static01.nyt.com/images/2025/03/28/multimedia/28myanmar-internet-czpv/28myanmar-internet-czpv-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXJVVGhKUW1aaVVGRlZZM1puVFJDUUF4allCQ2dLTWdrSllJUU1yU09xQ2dJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-28T11:08:18.000Z",
+      "authors": [
+        "Adam Satariano",
+        "Paul Mozur"
+      ],
+      "source_url": "https://www.nytimes.com",
+      "source_name": "The New York Times",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDMjU1ZEdsdFpYTXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuTUc1MmVIZHlNUklDWlc0b0FBUAE",
+          "topic_name": "Adam Satariano"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW5OdWFHSmtOQklDWlc0b0FBUAE",
+          "topic_name": "Paul Mozur"
+        }
+      ]
+    },
+    {
+      "title": "'Adolescence' on Netflix: A painful wake-up call about unregulated internet use for teens",
+      "link": "https://theconversation.com/adolescence-on-netflix-a-painful-wake-up-call-about-unregulated-internet-use-for-teens-253068",
+      "snippet": "In the Netflix series Adolescence, we have no idea why Jamie Miller (Owen Cooper) is arrested at the beginning of the first episode. The tension ...",
+      "photo_url": "https://images.theconversation.com/files/658066/original/file-20250327-56-zlvjfw.jpg?ixlib=rb-4.1.0&rect=148%2C135%2C953%2C391&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNUJhazlqZW1sVFJFaHNhV3hLVFJDUUFSamVBaWdCTWdrUmM1SXlyZWV4S3dJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T13:50:57.000Z",
+      "authors": [
+        "Martina Calcada Kohatsu"
+      ],
+      "source_url": "https://theconversation.com",
+      "source_name": "The Conversation",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://theconversation.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMAgKIipDQklTR1FnTWFoVUtFM1JvWldOdmJuWmxjbk5oZEdsdmJpNWpiMjBvQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEY1T0dKM2NXdDZZaElDWlc0b0FBUAE",
+          "topic_name": "Martina Calcada Kohatsu"
+        }
+      ]
+    },
+    {
+      "title": "Alphabet spins off laser-based internet project from ‘moonshot’ hub",
+      "link": "https://www.ft.com/content/1331c131-7b89-47ab-8dd2-3ce6c6a2307a",
+      "snippet": "Taara start-up aims to compete with Elon Musk's Starlink to connect remote areas to the internet using light beams.",
+      "photo_url": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe9435fbd-c783-4ab6-9b75-db91e472cee8.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUxOelpKTmxsQmRDMXRVRmxIVFJDS0F4aThCU2dLTWdZbEZaSU5wZ2c=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-17T07:00:00.000Z",
+      "authors": [
+        "Stephen Morris"
+      ],
+      "source_url": "https://www.ft.com",
+      "source_name": "Financial Times",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqHggKIhhDQklTREFnTWFnZ0tCbVowTG1OdmJTZ0FQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYyTURGeE9IYzFNaElDWlc0b0FBUAE",
+          "topic_name": "Stephen Morris"
+        }
+      ]
+    },
+    {
+      "title": "Trump administration poised to 'strand rural America with worse internet' to help Musk, official warns",
+      "link": "https://www.theguardian.com/us-news/2025/mar/17/trump-musk-starlink-rural-internet",
+      "snippet": "Small town USA is facing a “significant risk” that the Trump administration is going to abandon key elements of a $42.45bn Biden-era plan to ...",
+      "photo_url": "https://i.guim.co.uk/img/media/684ae52b7e05d56122d48bc7526512707c9a144b/0_0_6000_4000/master/6000.jpg?width=465&dpr=1&s=none&crop=none",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNVhNVGR1WjJWemNqUkxTekpXVFJDMkFoalJBeWdLTWdNeHhRWQ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-18T07:00:00.000Z",
+      "authors": [
+        "Stephanie Kirchgaessner"
+      ],
+      "source_url": "https://www.theguardian.com",
+      "source_name": "The Guardian",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEM1JvWldkMVlYSmthV0Z1TG1OdmJTZ0FQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUhvMmNubG1heElDWlc0b0FBUAE",
+          "topic_name": "Stephanie Kirchgaessner"
+        }
+      ]
+    },
+    {
+      "title": "Sick of internet outages? How I easily set up a backup connection in my home office",
+      "link": "https://www.zdnet.com/home-and-office/networking/sick-of-internet-outages-how-i-set-up-a-backup-connection-in-my-home-office-and-you-should-too/",
+      "snippet": "A failover internet connection is a good idea if you work from home - and it's not complicated to set up. Here's what to know.",
+      "photo_url": "https://www.zdnet.com/a/img/resize/9576f0041ca04aaee0bd6fa16c32f960f24bcd99/2025/03/12/d42d58f0-f608-4357-b152-ce142f73b5b3/blueoffice-gettyimages-1369845201.jpg?auto=webp&width=1280",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXZVRjlJWjI5cWVHZFRTblp5VFJERUF4aW1CU2dLTWdZUk1vVHFLUVE=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-14T17:19:00.000Z",
+      "authors": [
+        "Steven J. Vaughan-Nichols"
+      ],
+      "source_url": "https://www.zdnet.com",
+      "source_name": "ZDNET",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.zdnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIggKIhxDQklTRHdnTWFnc0tDWHBrYm1WMExtTnZiU2dBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ1Yldkak5sODFZeElDWlc0b0FBUAE",
+          "topic_name": "Steven J. Vaughan-Nichols"
+        }
+      ]
+    },
+    {
+      "title": "Vote for “How to Fix the Internet” in the Webby Awards People's Voice Competition!",
+      "link": "https://www.eff.org/deeplinks/2025/04/vote-how-fix-internet-webby-awards-peoples-voice-competition",
+      "snippet": "EFF's “How to Fix the Internet” podcast is a nominee in the Webby Awards 29th Annual People's Voice competition – and we need your support ...",
+      "photo_url": "https://www.eff.org/files/banner_library/htfi-2024-hero-1200.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXRTMEZvY2tzeE1YQjVNbmxXVFJDSEF4aVBCaWdLTWdhTklaQ3JNQWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T18:51:02.000Z",
+      "authors": [
+        "Josh Richman"
+      ],
+      "source_url": "https://www.eff.org",
+      "source_name": "Electronic Frontier Foundation",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.eff.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIAgKIhpDQklTRFFnTWFna0tCMlZtWmk1dmNtY29BQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTkd0blluWnlNQklDWlc0b0FBUAE",
+          "topic_name": "Josh Richman"
+        }
+      ]
+    },
+    {
+      "title": "Jio led mobile internet market in key performance metrics in H2-2024: Ookla",
+      "link": "https://www.tribuneindia.com/news/business/jio-led-mobile-internet-market-in-key-performance-metrics-in-h2-2024-ookla/",
+      "snippet": "According to Ookla, Jio recorded a median 5G download speed of 258.54 Mbps and an upload speed of 14.54 Mbps. Similarly, Jio was also the best ...",
+      "photo_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWI4NTQ5ZmEwLTBmYmItMTFmMC05YzRkLWExYjFjMjMzZTcyMi5qcGc=",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXJNRFJHVUZWUU5XMXhiRTlKVFJEZ0F4aUFCU2dLTWdZbGhKQ090UVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T12:12:07.000Z",
+      "authors": [],
+      "source_url": "https://www.tribuneindia.com",
+      "source_name": "The Tribune",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.tribuneindia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFSFJ5YVdKMWJtVnBibVJwWVM1amIyMG9BQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Research analyses the political effects of the Internet",
+      "link": "https://www.eurekalert.org/news-releases/1078970",
+      "snippet": "To carry out this analysis, the author uses an interdisciplinary methodology that combines the study of media cases with a philosophical ...",
+      "photo_url": "https://earimediaprodweb.azurewebsites.net/Api/v1/Multimedia/879dcc75-cc7f-47dd-9080-56afeaaa978e/Rendition/low-res/Content/Public",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUhkVlJhVTNKUVJUSk9hWEJ6VFJDdUFSaWlBaWdCTWdhcEJLQ1BCUXc=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T07:28:23.000Z",
+      "authors": [],
+      "source_url": "https://www.eurekalert.org",
+      "source_name": "EurekAlert!",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.eurekalert.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEbVYxY21WcllXeGxjblF1YjNKbktBQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "How do I put a picture of my cat on the internet?",
+      "link": "https://community.spiceworks.com/t/how-do-i-put-a-picture-of-my-cat-on-the-internet/1177577",
+      "snippet": "Print out the photo. · Scan the photo into your computer. · Convert the photo to pdf to save space in your computer. · Email the pdf as an ...",
+      "photo_url": "https://us1.discourse-cdn.com/spiceworks/original/4X/a/5/e/a5e06a359fad0a073a6be91eea1c09c3edd374f9.jpeg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNTNUbWxRTWxwcVdGaGZNa3BMVFJDbUFSaXdBaWdCTWdtVnBZck90U2VxTXdF=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T10:00:07.000Z",
+      "authors": [],
+      "source_url": "https://community.spiceworks.com",
+      "source_name": "Spiceworks Community",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://community.spiceworks.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqNggKIjBDQklTSGdnTWFob0tHR052YlcxMWJtbDBlUzV6Y0dsalpYZHZjbXR6TG1OdmJTZ0FQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "What Is 5G Home Internet and Could It Be Your Home Broadband Solution?",
+      "link": "https://www.cnet.com/home/internet/what-is-5g-home-internet-a-possible-broadband-solution/",
+      "snippet": "Millimeter-wave technology uses higher frequencies than previous generations, providing faster speeds and connections. Those higher gigabit ...",
+      "photo_url": "https://www.cnet.com/a/img/resize/c7271a710313729b6879754bc8aa134ad7587385/hub/2024/05/19/199ed588-0412-4fb3-bab0-c511166196f8/5g.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUVWSE5zUW5ORlVqWkpXVUZ4VFJDZkF4ampCU2dLTWdZZFFaU09yUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T21:00:00.000Z",
+      "authors": [
+        "Trey Paul"
+      ],
+      "source_url": "https://www.cnet.com",
+      "source_name": "CNET",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.cnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIQgKIhtDQklTRGdnTWFnb0tDR051WlhRdVkyOXRLQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUhsdGVuRmpNaElDWlc0b0FBUAE",
+          "topic_name": "Trey Paul"
+        }
+      ]
+    },
+    {
+      "title": "Internet project meant to connect more",
+      "link": "https://www.paulsvalleydailydemocrat.com/news/local_news/internet-project-meant-to-connect-more/article_d5c3b916-57ae-4b44-98fd-b6e4b1a7e008.html",
+      "snippet": "Dignitaries were there with shovels in hand for a groundbreaking last week signaling the start of fiber optic lines being laid near Lindsay as ...",
+      "photo_url": "https://bloximages.chicago2.vip.townnews.com/paulsvalleydailydemocrat.com/content/tncms/assets/v3/editorial/9/f9/9f92cf94-a3e5-4e4c-8e32-fcd8caa24afb/67ec100fdbce1.image.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNWtNMVZSTTFoVlpsQlRZM1ZyVFJESUFSajhBU2dCTWdNQllCUQ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T16:30:00.000Z",
+      "authors": [
+        "Barry Porterfield"
+      ],
+      "source_url": "https://www.paulsvalleydailydemocrat.com",
+      "source_name": "Pauls Valley Democrat",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.paulsvalleydailydemocrat.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqPAgKIjZDQklTSWdnTWFoNEtISEJoZFd4emRtRnNiR1Y1WkdGcGJIbGtaVzF2WTNKaGRDNWpiMjBvQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUY4ME4zQnhaaElDWlc0b0FBUAE",
+          "topic_name": "Barry Porterfield"
+        }
+      ]
+    },
+    {
+      "title": "Internet of Things (IoT) in Energy Market Revenue to Attain USD 97.78 Bn by 2033",
+      "link": "https://www.precedenceresearch.com/press-release/internet-of-things-iot-in-energy-market",
+      "snippet": "The Internet of Things (IoT) is revolutionizing the energy market by optimizing data analysis, real-time monitoring, and automation, which leads ...",
+      "photo_url": "https://www.precedenceresearch.com/insightimg/internet-of-things-(IoT)-in-energy-market-revenue.webp",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNHRWVGh5YzNRdGFXOUNjWE5TVFJDMEFSaVpBaWdCTWdrSkJJYkZWbU5yZ0FN=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T13:31:34.000Z",
+      "authors": [],
+      "source_url": "https://www.precedenceresearch.com",
+      "source_name": "Precedence Research",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.precedenceresearch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqNAgKIi5DQklTSEFnTWFoZ0tGbkJ5WldObFpHVnVZMlZ5WlhObFlYSmphQzVqYjIwb0FBUAE",
+      "related_topics": []
+    },
+    {
+      "title": "Phones, internet down at several Cape school district buildings",
+      "link": "https://www.capegazette.com/article/phones-internet-down-several-cape-school-district-buildings/289075",
+      "snippet": "The landline phones and internet are currently down at several Cape Henlopen School District buildings, including the Fred Thomas Building, ...",
+      "photo_url": "https://www.capegazette.com/sites/capegazette/files/2025/04/field/image/Cape+High.jpeg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNVdMV1l5UW5ONWVtcEdSR2RCVFJERUF4aW5CU2dLTWdNQjhBbw=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T14:33:41.000Z",
+      "authors": [],
+      "source_url": "https://www.capegazette.com",
+      "source_name": "Cape Gazette",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.capegazette.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMk5oY0dWbllYcGxkSFJsTG1OdmJTZ0FQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "Internet communities ruin everything",
+      "link": "https://thehofstrachronicle.com/104382/opinion/internet-communities-ruin-everything/",
+      "snippet": "The internet is a double-edged sword in so many ways. For every positive, there is a negative. For every amazing story or experience someone ...",
+      "photo_url": "https://thehofstrachronicle.com/wp-content/uploads/2025/04/brett-jordan-0FytazjHhxs-unsplash-1200x900.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNTBTV2xpTTJjMlgwbE5aMEZKVFJEZ0F4aUFCU2dLTWdZaE5vZ0xKZ2c=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T17:18:56.000Z",
+      "authors": [
+        "Ethan Poole"
+      ],
+      "source_url": "https://thehofstrachronicle.com",
+      "source_name": "The Hofstra Chronicle",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://thehofstrachronicle.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqNQgKIi9DQklTSFFnTWFoa0tGM1JvWldodlpuTjBjbUZqYUhKdmJtbGpiR1V1WTI5dEtBQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUhweU9UUXdlUklDWlc0b0FBUAE",
+          "topic_name": "Ethan Poole"
+        }
+      ]
+    },
+    {
+      "title": "Rural internet program on hold as Musk’s satellites get new consideration",
+      "link": "https://www.spokesman.com/stories/2025/apr/01/rural-internet-program-on-hold-as-musks-satellites/",
+      "snippet": "The program has been designed overwhelmingly around installing underground fiber-optic cables, a medium widely seen as a gold standard for fast ...",
+      "photo_url": "https://thumb.spokesman.com/Wb-ENKD48h3gj2341hlI78nQ6-g=/1200x800/smart/media.spokesman.com/photos/2025/04/01/67ec735eb1366.hires.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUdkREZVWldSeE1rNUxhWEYxVFJERUF4aW1CU2dLTWdZdGRaTE9yUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T00:18:23.000Z",
+      "authors": [
+        "Julian Mark"
+      ],
+      "source_url": "https://www.spokesman.com",
+      "source_name": "The Spokesman-Review",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.spokesman.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKAgKIiJDQklTRXdnTWFnOEtEWE53YjJ0bGMyMWhiaTVqYjIwb0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtZVRWcWJtdHpPUklDWlc0b0FBUAE",
+          "topic_name": "Julian Mark"
+        }
+      ]
+    },
+    {
+      "title": "Comparative effectiveness and acceptability of internet-based psychological interventions on depression in young people: a systematic review and network meta-analysis - BMC Psychiatry",
+      "link": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-025-06757-9",
+      "snippet": "This systematic review and network meta-analysis aims to rigorously assess the comparative efficacy and acceptability of internet-based ...",
+      "photo_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12888-025-06757-9/MediaObjects/12888_2025_6757_Fig2_HTML.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU1XV2xZYzBaeFgyTkpZVkpCVFJEU0FSanhBU2dCTWdhQkVZSUVLd2s=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T13:37:09.000Z",
+      "authors": [],
+      "source_url": "https://bmcpsychiatry.biomedcentral.com",
+      "source_name": "BMC Psychiatry",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://bmcpsychiatry.biomedcentral.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqQAgKIjpDQklTSlFnTWFpRUtIMkp0WTNCemVXTm9hV0YwY25rdVltbHZiV1ZrWTJWdWRISmhiQzVqYjIwb0FBUAE",
+      "related_topics": []
+    },
+    {
+      "title": "Plane passengers will soon scroll the internet for free after airline gets green light",
+      "link": "https://www.fox5atlanta.com/news/united-airlines-receives-faa-approval-first-starlink-equipped-plane-schedules-first-flight-may",
+      "snippet": "Passengers will be able to experience free \"game-changing inflight entertainment experiences\" including streaming services, shopping and gaming ...",
+      "photo_url": "https://images.foxtv.com/static.livenowfox.com/www.livenowfox.com/content/uploads/2025/04/764/432/ua-starlink1.jpg?ve=1&tl=1",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXVZME5qTkhOblNHZDNXa3hKVFJDZ0F4amhCU2dLTWdZQm9JclVUQVU=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T17:57:57.000Z",
+      "authors": [
+        "Pilar Arias",
+        "Bonny Chu"
+      ],
+      "source_url": "https://www.fox5atlanta.com",
+      "source_name": "FOX 5 Atlanta",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fox5atlanta.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMlp2ZURWaGRHeGhiblJoTG1OdmJTZ0FQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ3WmpkeVh6azVlaElDWlc0b0FBUAE",
+          "topic_name": "Pilar Arias"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtYUhOMmEzQXhZaElDWlc0b0FBUAE",
+          "topic_name": "Bonny Chu"
+        }
+      ]
+    },
+    {
+      "title": "Windows 11 Gets Quick Machine Recovery to Fix Boot Failures via the Internet",
+      "link": "https://beebom.com/windows-11-quick-machine-recovery-fixes-boot-failures-via-internet/",
+      "snippet": "Microsoft has introduced Quick Machine Recovery to Windows 11 which will allow you to fix boot failures using the internet automatically.",
+      "photo_url": "https://static.beebom.com/wp-content/uploads/2025/04/quick-machine-recovery-option-in-windows-11.jpg?w=1250&quality=75",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNXNWVkZaVFd3MVJGbE1RM2xvVFJDdEF4akxCU2dLTWdPTkV3NA=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T11:04:34.000Z",
+      "authors": [
+        "Arjun Sha"
+      ],
+      "source_url": "https://beebom.com",
+      "source_name": "Beebom",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://beebom.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJAgKIh5DQklTRUFnTWFnd0tDbUpsWldKdmJTNWpiMjBvQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ0ZG5ReWMyUnlaaElDWlc0b0FBUAE",
+          "topic_name": "Arjun Sha"
+        }
+      ]
+    },
+    {
+      "title": "Eutelsat in talks with EU to ramp up satellite internet to Ukraine, as shares soar",
+      "link": "https://www.reuters.com/technology/space/eutelsat-shares-more-than-triple-value-investors-bet-oneweb-satellites-2025-03-04/",
+      "snippet": "Eutelsat is in talks with the European Union to supply additional internet access to Ukraine, it said on Tuesday, amid a two-day surge in ...",
+      "photo_url": "https://www.reuters.com/resizer/v2/TJ65Q4N6XBIMZF7M5QLGN5HN4U.jpg?auth=ebb4bfddfdb1d01cf82a8b8eb89fea889d86a357ea3d005e6f01af33a8f69537&width=4000&quality=80",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNVlkV3R3WDJWU2MwTnllVmw0VFJERUF4aW1CU2dLTWdrSmdZNnN0ZVZNRFFJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-04T08:00:00.000Z",
+      "authors": [
+        "Michal Aleksandrowicz",
+        "Gianluca Lo"
+      ],
+      "source_url": "https://www.reuters.com",
+      "source_name": "Reuters",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDM0psZFhSbGNuTXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYyWW0xMmRHWTBZeElDWlc0b0FBUAE",
+          "topic_name": "Michal Aleksandrowicz"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYzYlhKdFl6SnVNaElDWlc0b0FBUAE",
+          "topic_name": "Gianluca Lo"
+        }
+      ]
+    },
+    {
+      "title": "T-Mobile Is Offering $300 to Switch to Its Home Internet Service",
+      "link": "https://www.aol.com/t-mobile-offering-300-switch-180000309.html",
+      "snippet": "In addition to the $300 virtual Mastercard, T-Mobile offers a $15 monthly discount on all home internet plans if you bundle with the Go5G Plus ...",
+      "photo_url": "https://s.yimg.com/ny/api/res/1.2/LrJzQgVa8jsh10vTHlyM.w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/cnet_articles_178/dd34c0d940913bdad99596ee241fa85f",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNVhWbTF1VVhGUlNYaFJjV1ZIVFJEb0FoaUFCU2dLTWdZVlFKaUtuUWc=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T18:00:52.000Z",
+      "authors": [],
+      "source_url": "https://www.aol.com",
+      "source_name": "AOL.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.aol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIAgKIhpDQklTRFFnTWFna0tCMkZ2YkM1amIyMG9BQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Editorial: How much help for Oregonians to access the internet?",
+      "link": "https://www.bendbulletin.com/opinion/editorial-how-much-help-for-oregonians-to-access-the-internet/article_833eaf09-bbc4-4b75-9441-1f597462ab85.html",
+      "snippet": "Having access to the internet is less an option and more a necessity in Oregon. The state government has been committed to seeing that all ...",
+      "photo_url": "https://bloximages.newyork1.vip.townnews.com/bendbulletin.com/content/tncms/assets/v3/editorial/f/06/f06a5952-9afc-4781-8ffd-f1c615eaaa6f/67ec02860aaad.image.jpg?resize=400%2C225",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNHdNbVJGU2pkTWRYWlRWMXBwVFJEaEFSaVFBeWdLTWdZQmdJd21NZ1U=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T15:30:00.000Z",
+      "authors": [],
+      "source_url": "https://www.bendbulletin.com",
+      "source_name": "bendbulletin.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.bendbulletin.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFR0psYm1SaWRXeHNaWFJwYmk1amIyMG9BQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "This mind-bending maths puzzle has left internet clueless about the answer, can you solve it?",
+      "link": "https://www.hindustantimes.com/trending/this-mind-bending-maths-puzzle-has-left-internet-clueless-about-the-answer-can-you-solve-it-101743578414273.html",
+      "snippet": "A maths brain teaser on X has puzzled the internet, challenging users to crack hidden patterns. Can you solve it?",
+      "photo_url": "https://www.hindustantimes.com/ht-img/img/2025/04/02/550x309/Screenshot_2025-04-02_125653_1743578999761_1743579005109.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNDVMVGQ2YzBNMlJrUkVVVzQzVFJDMUFoaWxCQ2dLTWdZWkk0YXJzUU0=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T09:00:07.000Z",
+      "authors": [],
+      "source_url": "https://www.hindustantimes.com",
+      "source_name": "Hindustan Times",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLggKIihDQklTR0FnTWFoUUtFbWhwYm1SMWMzUmhiblJwYldWekxtTnZiU2dBUAE",
+      "related_topics": []
+    },
+    {
+      "title": "Circle Internet Group files for IPO, plans to list on NYSE",
+      "link": "https://www.baystreet.ca/investing/110209/Circle-Internet-Group-files-for-IPO-plans-to-list-on-NYSE",
+      "snippet": "The company aims to list its Class A common stock on the New York Stock Exchange (NYSE) under the ticker symbol \"CRCL\". The number of shares to ...",
+      "photo_url": null,
+      "thumbnail_url": null,
+      "published_datetime_utc": "2025-04-01T22:40:07.000Z",
+      "authors": [],
+      "source_url": "https://www.baystreet.ca",
+      "source_name": "Baystreet.ca",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.baystreet.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtER0poZVhOMGNtVmxkQzVqWVNnQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Flipkart Internet receives Rs 3,249 crore infusion from Singapore parent",
+      "link": "https://m.economictimes.com/tech/funding/flipkart-internet-receives-rs-3249-crore-infusion-from-singapore-parent/articleshow/119912782.cms",
+      "snippet": "Flipkart Internet, the marketplace arm of Walmart-owned Flipkart, has secured Rs 3,248.9 crore in internal funding from its Singapore-based ...",
+      "photo_url": "https://m.economictimes.com/thumb/msid-119912813,width-1200,height-900,resizemode-4,imgsize-25834/flipkart-internet-receives-rs-3249-crore-infusion-from-singapore-parent.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXFRbmxsYjJ4a2JpMDNSMTloVFJEZ0F4aUFCU2dLTWdZeFpJeVBxUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T15:57:17.000Z",
+      "authors": [
+        "Ajay Rag"
+      ],
+      "source_url": "https://m.economictimes.com",
+      "source_name": "The Economic Times",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLQgKIidDQklTRndnTWFoTUtFV1ZqYjI1dmJXbGpkR2x0WlhNdVkyOXRLQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYyT1d0NlozbzVjQklDWlc0b0FBUAE",
+          "topic_name": "Ajay Rag"
+        }
+      ]
+    },
+    {
+      "title": "The internet is toxic for queer and trans people. In ‘A/S/L,’ it’s a haven",
+      "link": "https://xtramagazine.com/culture/books/the-internet-is-toxic-for-queer-and-trans-people-in-a-s-l-its-a-haven-272372",
+      "snippet": "A/S/L is about three teenage friends, Lilith, Sash and Abraxa, who meet online in 1998. They share a love of video games and decide to design ...",
+      "photo_url": "https://xtramagazine.com/wp-content/uploads/2025/04/ASL-by-Jeanne-Thornton-Review_cr_Rowa-Levy.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNVNkMFU1Wm1sME1GZEJWVWxFVFJDZkF4ampCU2dLTWdhUk1wVDBtQW8=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T17:53:41.000Z",
+      "authors": [
+        "Kerensa Cadenas"
+      ],
+      "source_url": "https://xtramagazine.com",
+      "source_name": "Xtra Magazine",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://xtramagazine.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFSGgwY21GdFlXZGhlbWx1WlM1amIyMG9BQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUhwaVluWjRjeElDWlc0b0FBUAE",
+          "topic_name": "Kerensa Cadenas"
+        }
+      ]
+    },
+    {
+      "title": "Amazon Set for Full-Scale Launch of Satellites for Internet Services",
+      "link": "https://www.marketscreener.com/quote/stock/AMAZON-COM-INC-12864605/news/Amazon-Set-for-Full-Scale-Launch-of-Satellites-for-Internet-Services-49512552/",
+      "snippet": "Amazon.com said Wednesday it is due to begin the first full-scale launch of satellites under Project Kuiper. The company will send 27 Kuiper satellites into ...",
+      "photo_url": "https://www.marketscreener.com/zbcache/charts/ObjectChart.aspx?Name=12864605&Type=Custom&Intraday=1&Width=392&Height=294&Cycle=DAY1&Duration=5&Render=Candle&ShowCopyright=2&ShowName=0&Locale=en&ShowVolume=1&Company=Skin:ZonebourseLight&externload=",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNW9WamRIWWpRdE5FeHhOMnBLVFJDbUFoaUlBeWdLTWdNQkF3SQ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T17:56:41.000Z",
+      "authors": [],
+      "source_url": "https://www.marketscreener.com",
+      "source_name": "MarketScreener",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.marketscreener.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLggKIihDQklTR0FnTWFoUUtFbTFoY210bGRITmpjbVZsYm1WeUxtTnZiU2dBUAE",
+      "related_topics": []
+    },
+    {
+      "title": "The future of the internet is likely smaller communities, with a focus on curated experiences",
+      "link": "https://www.theverge.com/press-room/617654/internet-community-future-research",
+      "snippet": "Smaller, purpose-driven communities are the future. The desire for smaller, more intimate communities is undeniable. People are abandoning ...",
+      "photo_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/257537_COMMUNITIES_.png?quality=90&strip=all&crop=0%2C0.011761938367442%2C100%2C99.976476123265&w=2400",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNHhNREpNVGpsV01sZDRXRlJIVFJEQ0F4aXFCU2dLTWdrSlVZakpMS1ZUcVFJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-02-25T08:00:00.000Z",
+      "authors": [
+        "Andrew Melnizek",
+        "Edwin Wong"
+      ],
+      "source_url": "https://www.theverge.com",
+      "source_name": "The Verge",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.theverge.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtESFJvWlhabGNtZGxMbU52YlNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTVRCb01qZDRaeElDWlc0b0FBUAE",
+          "topic_name": "Andrew Melnizek"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYyWW5ZeWREaGtNQklDWlc0b0FBUAE",
+          "topic_name": "Edwin Wong"
+        }
+      ]
+    },
+    {
+      "title": "Internet shutdowns at record high in Africa as access ‘weaponised’",
+      "link": "https://www.theguardian.com/technology/2025/mar/09/internet-shutdowns-record-high-africa-2024-access-weaponised",
+      "snippet": "Digital blackouts reached a record high in 2024 in Africa as more governments sought to keep millions of citizens off the internet than in any ...",
+      "photo_url": "https://i.guim.co.uk/img/media/6b2b84f8c8ddf03d7ffe1c1de63861003b6a8ab1/0_60_4500_2700/master/4500.jpg?width=465&dpr=1&s=none&crop=none",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXFMV2huUWpObU0zZzRkR1V3VFJDWEFoalJBeWdLTWdrQkU0NktIU2RVRXdF=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-09T08:00:00.000Z",
+      "authors": [
+        "Eromo Egbejule"
+      ],
+      "source_url": "https://www.theguardian.com",
+      "source_name": "The Guardian",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.theguardian.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEM1JvWldkMVlYSmthV0Z1TG1OdmJTZ0FQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtZEdkeWFuWTBjUklDWlc0b0FBUAE",
+          "topic_name": "Eromo Egbejule"
+        }
+      ]
+    },
+    {
+      "title": "Inspired by the Internet's rabbit holes, Ebun Sodipo interrogates Black creativity",
+      "link": "https://www.1854.photography/2025/04/ebun-sodipo-ominous-presence-soft-opening-exhibition/",
+      "snippet": "The artist's latest show An Ominous Presence explores the tension between desire, identity, and the act of image-making.",
+      "photo_url": "https://www.1854.photography/wp-content/uploads/2025/03/SOFT_OPENING_MARCH_2025_08_web.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNHpiVTVtU1dSbWFVNWxWbWxTVFJEUkF4aVVCU2dLTWdZVmNvaHF1UVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T09:00:06.000Z",
+      "authors": [
+        "Habi Diallo"
+      ],
+      "source_url": "https://www.1854.photography",
+      "source_name": "British Journal of Photography",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.1854.photography&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFREU0TlRRdWNHaHZkRzluY21Gd2FIa29BQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtY210dGVUUXljaElDWlc0b0FBUAE",
+          "topic_name": "Habi Diallo"
+        }
+      ]
+    },
+    {
+      "title": "Weak Wi-Fi? How to get wired internet at home without running ethernet cable",
+      "link": "https://www.zdnet.com/home-and-office/networking/weak-wi-fi-how-to-get-wired-internet-at-home-without-running-ethernet/",
+      "snippet": "If you have cable outlets, you can use an adapter to set up a high-speed wired connection with minimal effort and expense. Here's how.",
+      "photo_url": "https://www.zdnet.com/a/img/resize/e285af9152043fffe86907a8bf6bf2bb1e148365/2025/03/27/f9adaa81-4f7d-497f-bbc8-60d9754e8273/gettyimages-71102346.jpg?auto=webp&width=1280",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU9TVXRXY1VWbVNuVTNVbU5XVFJERUF4aW1CU2dLTWdZdGM1WXdLUWc=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-03-27T18:08:00.000Z",
+      "authors": [
+        "Ed Bott"
+      ],
+      "source_url": "https://www.zdnet.com",
+      "source_name": "ZDNET",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.zdnet.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIggKIhxDQklTRHdnTWFnc0tDWHBrYm1WMExtTnZiU2dBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5T0RGaU4zb1NBbVZ1S0FBUAE",
+          "topic_name": "Ed Bott"
+        }
+      ]
+    },
+    {
+      "title": "In Vietnam, personal data, corporate documents sold widely on Internet",
+      "link": "https://tuoitrenews.vn/news/business/20250402/in-vietnam-personal-data-corporate-documents-sold-widely-on-internet/85690.html",
+      "snippet": "A report indicated a significant increase in cyberattacks, data breaches, and security vulnerabilities across the Southeast Asian country.",
+      "photo_url": "https://static.tuoitrenews.vn/ttnew/r/2025/04/02/cyber-1743564663.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNURja1F5U0ZoR2JUaDVTbDgyVFJEQ0F4aXBCU2dLTWdZVmhJaElzZ1k=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T10:29:00.000Z",
+      "authors": [],
+      "source_url": "https://tuoitrenews.vn",
+      "source_name": "Tuoi Tre News | Mobile | Home",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://tuoitrenews.vn&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEblIxYjJsMGNtVnVaWGR6TG5adUtBQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Can a Decentralized Internet Make Free Speech and Global Access a Reality?",
+      "link": "https://hackernoon.com/can-a-decentralized-internet-make-free-speech-and-global-access-a-reality",
+      "snippet": "Explore how decentralization can solve internet censorship, free speech, and accessibility challenges, offering a truly global and open ...",
+      "photo_url": "https://hackernoon.imgix.net/images/h9zh5laZcuVhjnaK4lBLPxYH14f2-xo03ij3.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNVZaMk5IZEROU1drVk1aM2hWVFJDQkFSaUZBeWdCTWdtQmNZekx0Q1d4S3dJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T12:56:15.000Z",
+      "authors": [],
+      "source_url": "https://hackernoon.com",
+      "source_name": "HackerNoon",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hackernoon.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEbWhoWTJ0bGNtNXZiMjR1WTI5dEtBQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Metronet’s Blazing-Fast Fiber Internet Now Available in Council Bluffs",
+      "link": "https://www.01net.it/metronets-blazing-fast-fiber-internet-now-available-in-council-bluffs/",
+      "snippet": "Residents in initial service areas can now sign up for ultra-fast fiber-optic internet with speeds of up to five gigabits per second, while ...",
+      "photo_url": null,
+      "thumbnail_url": null,
+      "published_datetime_utc": "2025-04-01T17:00:00.000Z",
+      "authors": [],
+      "source_url": "https://www.01net.it",
+      "source_name": "01net",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.01net.it&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIQgKIhtDQklTRGdnTWFnb0tDREF4Ym1WMExtbDBLQUFQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "Meta plans globe-spanning sub-sea internet cable",
+      "link": "https://www.bbc.com/news/articles/ckgrgz8271go",
+      "snippet": "Meta has announced plans to build a 50,000km (31,000 mile) sub-sea cable across the world. The tech giant said Project Waterworth ...",
+      "photo_url": "https://ichef.bbci.co.uk/news/1024/branded_news/b9fc/live/6a169420-ed3c-11ef-aa6d-b97ed0f17260.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXZRMjVDVDFkclMydDZUMkZMVFJDZkF4ampCU2dLTWdrQkVJQlpFS3FvT2dB=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-02-17T08:00:00.000Z",
+      "authors": [
+        "Liv Mcmahon"
+      ],
+      "source_url": "https://www.bbc.com",
+      "source_name": "BBC",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIAgKIhpDQklTRFFnTWFna0tCMkppWXk1amIyMG9BQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ1T0Roek16bDBiaElDWlc0b0FBUAE",
+          "topic_name": "Liv Mcmahon"
+        }
+      ]
+    },
+    {
+      "title": "Idaho Internet Can’t Stop Laughing at 2 Local April Fools’ Pranks",
+      "link": "https://1035kissfmboise.com/idaho-internet-cant-stop-laughing-at-2-local-april-fools-pranks/",
+      "snippet": "Both the Boise Airport and the Boise Police Department took their stab at cracking jokes online. Take a look at two local pranks that had the ...",
+      "photo_url": "https://townsquare.media/site/737/files/2025/04/attachment-Screen-Shot-2025-04-01-at-8.11.26-PM.jpg?w=780&q=75",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNVlXVGxOWXpkWlZFeFRWMHg1VFJEUkF4aVRCU2dLTWdtRlFKQUhOdVk4U1FJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T03:15:09.000Z",
+      "authors": [],
+      "source_url": "https://1035kissfmboise.com",
+      "source_name": "1035kissfmboise.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://1035kissfmboise.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMAgKIipDQklTR1FnTWFoVUtFekV3TXpWcmFYTnpabTFpYjJselpTNWpiMjBvQUFQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "A lucky few can snag iiNet 500Mbps internet for just AU$40 a month right now",
+      "link": "https://www.techradar.com/computing/wi-fi-broadband/a-lucky-few-can-snag-iinet-500mbps-internet-for-just-au-40-a-month-right-now",
+      "snippet": "Right now, TPG-owned iiNet has slashed prices of its FTTB plans by up to 55%, with all now available for just AU$39.99p/m for the first 6 months ...",
+      "photo_url": "https://cdn.mos.cms.futurecdn.net/hEh3R378n5D8ACqJhTEUmb-1200-80.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWlZVFpGWjAxd2VVTjNkM0JWVFJDZkF4ampCU2dLTWdhWk1KaEttZ2s=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T00:31:14.000Z",
+      "authors": [
+        "Max Langridge"
+      ],
+      "source_url": "https://www.techradar.com",
+      "source_name": "TechRadar",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.techradar.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKAgKIiJDQklTRXdnTWFnOEtEWFJsWTJoeVlXUmhjaTVqYjIwb0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ6YzJNNFptTmpOUklDWlc0b0FBUAE",
+          "topic_name": "Max Langridge"
+        }
+      ]
+    },
+    {
+      "title": "What Is a Browser Cache, Anyway?",
+      "link": "https://au.lifehacker.com/internet/113547/feature/what-is-a-browser-cache-anyway",
+      "snippet": "Your browser cache is a temporary storage area for elements of websites you visit, like images, fonts, and code. When you first visit a website, ...",
+      "photo_url": "https://sm.lifehacker.com/t/lifehacker_au/feature/w/what-is-a-/what-is-a-browser-cache-anyway_bg21.1024.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUpTR2xKZFVKa1Eyc3RWWFJhVFJDb0FSaXNBaWdCTWdhZE1Zb3RKUVU=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T15:30:00.000Z",
+      "authors": [
+        "Emily Long"
+      ],
+      "source_url": "https://au.lifehacker.com",
+      "source_name": "Lifehacker",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://au.lifehacker.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLQgKIidDQklTRndnTWFoTUtFV0YxTG14cFptVm9ZV05yWlhJdVkyOXRLQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ4WnpSME5ISjNNeElDWlc0b0FBUAE",
+          "topic_name": "Emily Long"
+        }
+      ]
+    },
+    {
+      "title": "WATCH: Canadian professor grooves to Punjabi beats with student, internet can’t get enough!",
+      "link": "https://timesofindia.indiatimes.com/etimes/trending/watch-canadian-professor-grooves-to-punjabi-beats-with-student-internet-cant-get-enough/articleshow/119872125.cms",
+      "snippet": "WATCH: Canadian professor grooves to Punjabi beats with student, internet can't get. Image credit: Instagram. A video recently went viral, ...",
+      "photo_url": "https://static.toiimg.com/thumb/msid-119872087,width-1280,height-720,resizemode-4/119872087.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNVZaRWhDV1hwR2FYaGxhR3hQVFJDZkF4ampCU2dLTWdrSkVacldrR3U1cFFJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T14:33:00.000Z",
+      "authors": [],
+      "source_url": "https://timesofindia.indiatimes.com",
+      "source_name": "Times of India",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqOggKIjRDQklTSVFnTWFoMEtHM1JwYldWemIyWnBibVJwWVM1cGJtUnBZWFJwYldWekxtTnZiU2dBUAE",
+      "related_topics": []
+    },
+    {
+      "title": "Internet Protocol Television Market Boom: Trends, Growth, and What's Next in Streaming",
+      "link": "https://www.openpr.com/news/3950345/internet-protocol-television-market-boom-trends-growth",
+      "snippet": "The Internet Protocol Television market is undergoing rapid expansion, driven by a growing demand for on-demand content, personalized viewing ...",
+      "photo_url": "https://cdn.open-pr.com/L/4/L402151457_g.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWZNbTE2VDBwWFlVRkRWRmszVFJESUFSajhBU2dCTWdhQmdvYmhRUU0=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T09:38:00.000Z",
+      "authors": [],
+      "source_url": "https://www.openpr.com",
+      "source_name": "openPR.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.openpr.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJAgKIh5DQklTRUFnTWFnd0tDbTl3Wlc1d2NpNWpiMjBvQUFQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "Chinese rivals to Musk's Starlink accelerate race to dominate satellite internet",
+      "link": "https://www.reuters.com/technology/musks-starlink-races-with-chinese-rivals-dominate-satellite-internet-2025-02-24/",
+      "snippet": "Chinese rivals to Musk's Starlink accelerate race to dominate satellite internet · Musk's Starlink facing fresh competition from China's ...",
+      "photo_url": "https://www.reuters.com/resizer/v2/GEC4UTC7VNIN7A6DOKTM44D4WQ.jpg?auth=ef9537f470b5fc81664eeb9e732162b21c3df346314a93f23d0316dc3aadec85&width=1200&quality=80",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU1lWEY0ZUhWMmJYY3hNak5XVFJERUF4aW1CU2dLTWdhSllveHVMUVU=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-02-24T08:00:00.000Z",
+      "authors": [
+        "Eduardo Baptista",
+        "Nivedita Bhattacharjee",
+        "Lisandra Paraguassu"
+      ],
+      "source_url": "https://www.reuters.com",
+      "source_name": "Reuters",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDM0psZFhSbGNuTXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ5YmpaamNYQmpiQklDWlc0b0FBUAE",
+          "topic_name": "Eduardo Baptista"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ6ZWpOclltaHpYeElDWlc0b0FBUAE",
+          "topic_name": "Nivedita Bhattacharjee"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ6YlhReGF6Y3lZaElDWlc0b0FBUAE",
+          "topic_name": "Lisandra Paraguassu"
+        }
+      ]
+    },
+    {
+      "title": "McAfee, ESPN Could Be Sued After Boosting Viral Internet Rumor",
+      "link": "https://www.sportico.com/law/analysis/2025/pat-mcafee-espn-ole-miss-rumor-legal-implications-1234845919/",
+      "snippet": "The possible lawsuit raises questions about the scope of defamation law and First Amendment free speech protections for media personalities.",
+      "photo_url": "https://www.sportico.com/wp-content/uploads/2025/04/GettyImages-2197845715-e1743558399458.jpg?w=1280&h=721&crop=1",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU1UVmxDTlZKa2Jtd3lhWE5NVFJDZkF4amlCU2dLTWdhTk5KQ21IZ2s=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T13:00:52.000Z",
+      "authors": [
+        "Michael McCann"
+      ],
+      "source_url": "https://www.sportico.com",
+      "source_name": "Sportico.com",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sportico.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtESE53YjNKMGFXTnZMbU52YlNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSGR3ZDJSbk1oSUNaVzRvQUFQAQ",
+          "topic_name": "Michael McCann"
+        }
+      ]
+    },
+    {
+      "title": "3 recommended VPN services to protect your privacy and unlock the internet",
+      "link": "https://nasilemaktech.com/3-recommended-vpn-services-to-protect-your-privacy-and-unlock-the-internet/",
+      "snippet": "Get the most of these 3 VPN services for a variety of benefits from bypassing geo-restricted content to enhanced online security.",
+      "photo_url": "https://nasilemaktech.com/wp-content/uploads/2025/04/VPN-Stock-Photo.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWlhamhGUkY5RWIzZEZSbUp0VFJDWUF4amtCQ2dLTWdZcFlJN09LUVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T04:16:55.000Z",
+      "authors": [
+        "Calvin Liew"
+      ],
+      "source_url": "https://nasilemaktech.com",
+      "source_name": "Nasi Lemak Tech",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://nasilemaktech.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLQgKIidDQklTRndnTWFoTUtFVzVoYzJsc1pXMWhhM1JsWTJndVkyOXRLQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEYzYW1SalptTjNYeElDWlc0b0FBUAE",
+          "topic_name": "Calvin Liew"
+        }
+      ]
+    },
+    {
+      "title": "The internet reacts to Nintendo's new Switch 2, 'Mario Kart World'",
+      "link": "https://mashable.com/article/nintendo-switch-mario-kart-world-internet-reactions",
+      "snippet": "It's a massive, long-awaited day for gamers with Nintendo announcing the Switch 2 in a livestreamed event on Wednesday.",
+      "photo_url": "https://helios-i.mashable.com/imagery/articles/06NTBYgYo5anreSrNdhtZA3/hero-image.fill.size_1248x702.v1743599430.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU9UMHhqU1c0M01YTnpZMnc0VFJDZkF4ampCU2dLTWdZQkVZS3YzQUk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T13:16:57.000Z",
+      "authors": [
+        "Tim Marcin"
+      ],
+      "source_url": "https://mashable.com",
+      "source_name": "Mashable",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://mashable.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtERzFoYzJoaFlteGxMbU52YlNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1Kd05uWnJNeElDWlc0b0FBUAE",
+          "topic_name": "Tim Marcin"
+        }
+      ]
+    },
+    {
+      "title": "First demonstration of quantum teleportation over busy Internet cables",
+      "link": "https://news.northwestern.edu/stories/2024/12/first-demonstration-of-quantum-teleportation-over-busy-internet-cables/",
+      "snippet": "The process works by harnessing quantum entanglement, a technique in which two particles are linked, regardless of the distance between them.",
+      "photo_url": "https://news.northwestern.edu/assets/Stories/2024/12/fiberoptic1940__FitMaxWzk3MCw2NTBd.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWpZWEpCZDNGelNuVm9MV2htVFJERkF4aWxCU2dLTWdZWlVveVFMUWc=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2024-12-20T08:00:00.000Z",
+      "authors": [
+        "Amanda Morris"
+      ],
+      "source_url": "https://news.northwestern.edu",
+      "source_name": "Northwestern Now News",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://news.northwestern.edu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMggKIixDQklTR3dnTWFoY0tGVzVsZDNNdWJtOXlkR2gzWlhOMFpYSnVMbVZrZFNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ4Ym1KM05WOXpYeElDWlc0b0FBUAE",
+          "topic_name": "Amanda Morris"
+        }
+      ]
+    },
+    {
+      "title": "Malawi’s Digital Push: Government to Connect 500 Public Institutions to Internet",
+      "link": "https://techafricanews.com/2025/04/01/malawis-digital-push-government-to-connect-500-public-institutions-to-internet/",
+      "snippet": "According to the said report, as part of the initiative, 2,000 schools will be connected through the Malawi Research and Education Network ( ...",
+      "photo_url": "https://techafricanews.com/wp-content/uploads/2025/04/african-children-Stock-image.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXFiVlZ4YjJWMGRsZEtaMWROVFJESEF4aWpCU2dLTWdrQlFJak1zYWJRaGdJ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T14:46:34.000Z",
+      "authors": [
+        "Joyce Onyeagoro"
+      ],
+      "source_url": "https://techafricanews.com",
+      "source_name": "TechAfrica News",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techafricanews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLggKIihDQklTR0FnTWFoUUtFblJsWTJoaFpuSnBZMkZ1WlhkekxtTnZiU2dBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEY1TVdkMk9URnJNaElDWlc0b0FBUAE",
+          "topic_name": "Joyce Onyeagoro"
+        }
+      ]
+    },
+    {
+      "title": "Ellon paedophile caught with computer software that deletes internet history",
+      "link": "https://www.pressandjournal.co.uk/fp/news/crime-courts/6725486/paedophile-downloaded-software-that-deletes-internet-history/",
+      "snippet": "A notorious paedophile has been jailed after he was caught downloading software used to delete a computer's internet browsing history.",
+      "photo_url": "https://www.pressandjournal.co.uk/wp-content/uploads/sites/2/2025/04/Cameron-Anderson_28017665-wtfxorre-e1743525971998.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNDJielZ5Y2pKTVpUVlpkMGhqVFJDdEF4akxCU2dLTWdZaFI0SXJJZ2c=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T10:30:04.000Z",
+      "authors": [
+        "David Mcphee"
+      ],
+      "source_url": "https://www.pressandjournal.co.uk",
+      "source_name": "Press and Journal",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.pressandjournal.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMggKIixDQklTR3dnTWFoY0tGWEJ5WlhOellXNWthbTkxY201aGJDNWpieTUxYXlnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuT1hJMk4zUnhjeElDWlc0b0FBUAE",
+          "topic_name": "David Mcphee"
+        }
+      ]
+    },
+    {
+      "title": "Internet access coming to Canada's federal prisons",
+      "link": "https://www.ctvnews.ca/canada/article/limited-internet-comes-to-the-inmates-in-canadas-federal-prisons/",
+      "snippet": "Canada's federal prisons are introducing the internet to their prisoners for the first time, in a limited way geared to providing some inmates ...",
+      "photo_url": "https://www.ctvnews.ca/resizer/v2/5M4PB6F63NHTLAEJFQWOMI7JLA.jpg?auth=91879db88b1c21c3ce2d38d652cd8616254789d55f3cd6fec32ed08f6c94b5a3&width=800&height=450",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNTVPVlZIVVd3d1JUaG1kR2RoVFJDb0FSaXNBaWdCTWdZTlJKU21uZ2s=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T09:00:00.000Z",
+      "authors": [
+        "Jon Woodward"
+      ],
+      "source_url": "https://www.ctvnews.ca",
+      "source_name": "CTV News",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.ctvnews.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJAgKIh5DQklTRUFnTWFnd0tDbU4wZG01bGQzTXVZMkVvQUFQAQ",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ4Ym1OalpHWmZOeElDWlc0b0FBUAE",
+          "topic_name": "Jon Woodward"
+        }
+      ]
+    },
+    {
+      "title": "Internet cafe sealed for downloading, distributing pirated version of 'Empuraan'",
+      "link": "https://www.deccanherald.com/india/kerala/internet-cafe-sealed-for-downloading-distributing-pirated-version-of-empuraan-3473023",
+      "snippet": "Kannur, Kerala: Police on Tuesday closed and sealed an internet cafe where a pirated version of Mohanlal-starrer L2: Empuraan was allegedly ...",
+      "photo_url": "https://images.deccanherald.com/deccanherald%2F2025-03-28%2Fgbq7l99b%2FGnCmiN4WkAAEmLO.jpg?auto=format%2Ccompress&fmt=webp&fit=max&format=webp&q=70&w=400&dpr=2",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNUxTSFpCTlhCbE5EVm5RMWxLVFJDTUFoamNBeWdLTWdrVllvUkp2aVE5ckFF=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T18:09:54.000Z",
+      "authors": [],
+      "source_url": "https://www.deccanherald.com",
+      "source_name": "Deccan Herald",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.deccanherald.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLAgKIiZDQklTRmdnTWFoSUtFR1JsWTJOaGJtaGxjbUZzWkM1amIyMG9BQVAB",
+      "related_topics": [],
+      "sub_articles": [
+        {
+          "title": "‘Empuraan’ leaked online: Producers' body intervenes, appoints ethical hackers to track down film pirates",
+          "link": "https://www.onmanorama.com/entertainment/entertainment-news/2025/03/29/producers-association-intervene-to-tackle-film-piracy-appoint-ethical-hackers.html",
+          "photo_url": "https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2025/3/29/empuraan-piracy.jpg?w=1120&h=583",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNU1kVkpJU1Y5b1VGOWZRblpsVFJDUUF4al9CU2dLTWdZRk1wYkZwZ2c=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-03-29T11:52:04.000Z",
+          "authors": [],
+          "source_url": "https://www.onmanorama.com",
+          "source_name": "Onmanorama",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.onmanorama.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEbTl1YldGdWIzSmhiV0V1WTI5dEtBQVAB",
+          "related_topics": []
+        },
+        {
+          "title": "Kerala Film Producers’ Association deploys ethical hackers to track down film pirates after suspected leak of L2: Empuraan",
+          "link": "https://www.thehindu.com/news/national/kerala/kfpa-deploys-ethical-hackers-to-track-down-film-pirates/article69385447.ece",
+          "photo_url": "https://th-i.thgim.com/public/news/national/kerala/roigd1/article69384898.ece/alternates/LANDSCAPE_1200/empuraan2.jpg",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNWpZakpNUVZJeWFHSnBiVWxPVFJDZkF4ampCU2dLTWdZeE5aaXZIUWs=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-03-28T12:49:00.000Z",
+          "authors": [],
+          "source_url": "https://www.thehindu.com",
+          "source_name": "The Hindu",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thehindu.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtESFJvWldocGJtUjFMbU52YlNnQVAB",
+          "related_topics": []
+        },
+        {
+          "title": "'L2: Empuraan' movie leak, producers association steps up fight against piracy",
+          "link": "https://www.newindianexpress.com/states/kerala/2025/Mar/29/l2-empuraan-movie-leak-producers-association-steps-up-fight-against-piracy",
+          "photo_url": "https://media.assettype.com/newindianexpress/2025-03-28/0f9rcov3/48531218912295915652000617709309834290461010n.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+          "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXRZVVYyTFdwak1WbDFYMmxuVFJDUkF4ajlCU2dLTWdrTkVZcEpJV1kwRkFF=-w200-h200-p-df-rw",
+          "published_datetime_utc": "2025-03-29T04:13:16.000Z",
+          "authors": [],
+          "source_url": "https://www.newindianexpress.com",
+          "source_name": "The New Indian Express",
+          "source_logo_url": null,
+          "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.newindianexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "source_publication_id": "CAAqMQgKIitDQklTR2dnTWFoWUtGRzVsZDJsdVpHbGhibVY0Y0hKbGMzTXVZMjl0S0FBUAE",
+          "related_topics": []
+        }
+      ],
+      "story_id": "CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pzaGZIRURSSE15LUluNnJoS1RpZ0FQAQ"
+    },
+    {
+      "title": "The deep-sea 'emergency service' that keeps the internet running",
+      "link": "https://www.bbc.com/future/article/20241014-the-deep-sea-emergency-service-that-keeps-the-internet-running",
+      "snippet": "The Hunga Tonga–Hunga Ha'apai volcanic eruption in 2021-2022 destroyed the subsea internet cable linking the Pacific Island nation of Tonga to ...",
+      "photo_url": "https://ichef.bbci.co.uk/images/ic/480xn/p0jxm92x.jpg.webp",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNTBiekpsV1Zsd1YzTmpUVk5sVFJDT0FoamdBeWdLTWdtQmtZNzB0R2FpelFF=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2024-10-15T07:00:00.000Z",
+      "authors": [],
+      "source_url": "https://www.bbc.com",
+      "source_name": "BBC",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bbc.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIAgKIhpDQklTRFFnTWFna0tCMkppWXk1amIyMG9BQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "AT&T Internet Air - Review 2025",
+      "link": "https://uk.pcmag.com/wireless-carriers/157367/att-internet-air",
+      "snippet": "AT&T Internet Air, starting at $60 per month, delivers internet service to your home via AT&T's 4G LTE and 5G wireless networks rather than ...",
+      "photo_url": "https://sm.pcmag.com/t/pcmag_uk/review/a/att-intern/att-internet-air_esrh.1920.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUVjR2g1UlMxNFZGZDVla3M1VFJDb0FSaXNBaWdCTWdhaGNZNE50UVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-01T14:00:00.000Z",
+      "authors": [
+        "Eric Zeman"
+      ],
+      "source_url": "https://uk.pcmag.com",
+      "source_name": "PCMag UK",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://uk.pcmag.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJggKIiBDQklTRWdnTWFnNEtESFZyTG5CamJXRm5MbU52YlNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtYUhOeGJtSjRkeElDWlc0b0FBUAE",
+          "topic_name": "Eric Zeman"
+        }
+      ]
+    },
+    {
+      "title": "Top internet browsers among Azerbaijani users revealed",
+      "link": "https://en.trend.az/business/4024989.html",
+      "snippet": "The share of the Safari web browser in the Azerbaijani market equaled 10.88 percent (up 0.18 percentage points). In the interim, the market ...",
+      "photo_url": "https://en.trend.az/media/2024/12/24/chrome_logo_241224.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNTVkWGx6U0ROVE5EbHZlbXg0VFJERUFSaUFBaWdCTWdhaFpKQ3RzUVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T15:47:00.000Z",
+      "authors": [
+        "Sadig Javadov"
+      ],
+      "source_url": "https://en.trend.az",
+      "source_name": "Trend News Agency",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://en.trend.az&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDMlZ1TG5SeVpXNWtMbUY2S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEY1T1Rjd05XZzBiUklDWlc0b0FBUAE",
+          "topic_name": "Sadig Javadov"
+        }
+      ]
+    },
+    {
+      "title": "MP wants new law to have metered billing of internet",
+      "link": "https://www.the-star.co.ke/news/2025-04-02-mp-wants-new-law-to-have-metered-billing-of-internet",
+      "snippet": "A member of parliament is planning to ask parliament of pass a new law to measure the internet usage and have users billed per minute. This is ...",
+      "photo_url": "https://cdn.radioafrica.digital/image/2025/04/c474a129-3056-4f5b-82e9-2cdc48526ab4.png",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iL0NnNXlZWEkyVVVsbmRXaHVkRmwyVFJDN0FSaU5BaWdCTWdtVkk0UndGU3FpOVFB=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T01:56:00.000Z",
+      "authors": [],
+      "source_url": "https://www.the-star.co.ke",
+      "source_name": "the-star.co.ke",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.the-star.co.ke&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEblJvWlMxemRHRnlMbU52TG10bEtBQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "Korea telecom regulator summons firms over internet penalties amid wildfire crisis - CHOSUNBIZ",
+      "link": "https://biz.chosun.com/en/en-it/2025/04/02/G5OWMNAEUZHSPCLJO6ORHURZSM/",
+      "snippet": "Korea telecom regulator summons firms over internet penalties amid wildfire crisis The Korea Communications Commission confirmed in an ...",
+      "photo_url": "https://biz.chosun.com/resizer/v2/VWLU2BEYFADZC3KNEOPIDDX67I.jpg?auth=ba3a63705cd7198aaa8aa31304f500fb2b88648cc72d14f2b8ee555f431e67b6&width=1200&height=630&smart=true",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNTNiVFJwYVhKSWRHdFdha0pWVFJDUkF4ajhCU2dLTWdZQmdJektOQVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T08:04:00.000Z",
+      "authors": [],
+      "source_url": "https://biz.chosun.com",
+      "source_name": "Chosun Biz",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://biz.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKQgKIiNDQklTRkFnTWFoQUtEbUpwZWk1amFHOXpkVzR1WTI5dEtBQVAB",
+      "related_topics": []
+    },
+    {
+      "title": "'IoT Innovations of Tomorrow' Today: Morse Micro Debuts its HaLowLink 1 via Collaboration with GL.iNet",
+      "link": "https://www.iotevolutionworld.com/iot/articles/461411-iot-innovations-tomorrow-today-morse-micro-debuts-its.htm",
+      "snippet": "This morning, Morse Micro announced the official launch of the HaLowLink 1, its first reference-designed Wi-Fi HaLow Access Point.",
+      "photo_url": "https://images.tmcnet.com/tmc/misc/articles/image/2024-dec/8612784591-Morse_Micro_HaLowLink_network_access_point_IoT_supersize_1200x630.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNXdjRVJIT0V4eFNIaEdNR1oxVFJDUkF4ajhCU2dLTWdZdHNvaHdQUVU=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2024-12-11T08:00:00.000Z",
+      "authors": [
+        "Alex Passett"
+      ],
+      "source_url": "https://www.iotevolutionworld.com",
+      "source_name": "IoT Evolution World",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.iotevolutionworld.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqMggKIixDQklTR3dnTWFoY0tGV2x2ZEdWMmIyeDFkR2x2Ym5kdmNteGtMbU52YlNnQVAB",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ5YzJOM05Ua3dNeElDWlc0b0FBUAE",
+          "topic_name": "Alex Passett"
+        }
+      ]
+    },
+    {
+      "title": "Google’s Taara Hopes to Usher in a New Era of Internet Powered by Light",
+      "link": "https://www.wired.com/story/plaintext-google-taara-chip-internet-by-light/",
+      "snippet": "The Alphabet “moonshot” project is launching a new chip to deliver high-speed internet with light instead of radio waves.",
+      "photo_url": "https://media.wired.com/photos/67c0ba8267cb890683c776f5/master/w_2560%2Cc_limit/Plaintext-Internet-By-Light-h_31.RC2TN1A0JKTL.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNTRkazlqWTI5TFZVaGpja1V6VFJEb0F4ajBCQ2dLTWdZSmRKRE1MUWM=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-02-28T08:00:00.000Z",
+      "authors": [
+        "Steven Levy"
+      ],
+      "source_url": "https://www.wired.com",
+      "source_name": "WIRED",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wired.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqIggKIhxDQklTRHdnTWFnc0tDWGRwY21Wa0xtTnZiU2dBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqIggKIhxDQkFTRHdvSkwyMHZNREp3TmpOeEVnSmxiaWdBUAE",
+          "topic_name": "Steven Levy"
+        }
+      ]
+    },
+    {
+      "title": "Exclusive: US could cut Ukraine's access to Starlink internet services over minerals, say sources",
+      "link": "https://www.reuters.com/business/us-could-cut-ukraines-access-starlink-internet-services-over-minerals-say-2025-02-22/",
+      "snippet": "Musk rushed thousands of Starlink terminals to Ukraine to replace communications services destroyed by Russia after its February 2022 invasion.",
+      "photo_url": "https://www.reuters.com/resizer/v2/FQ6RGPNUPRKCDBSM7M5JCL6X5Y.jpg?auth=4b36029b154d2a6741f19b4ad0c70a88fba974f22244463ee98366dd31bb6c78&width=960&quality=80",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNVlXa1pxTkVSelZEaFdiakZQVFJESkF4aWdCU2dLTWdNQkFBRQ=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-02-22T08:00:00.000Z",
+      "authors": [
+        "Andrea Shalal",
+        "Joey Roulette"
+      ],
+      "source_url": "https://www.reuters.com",
+      "source_name": "Reuters",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqJQgKIh9DQklTRVFnTWFnMEtDM0psZFhSbGNuTXVZMjl0S0FBUAE",
+      "related_topics": [
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTmpobVpuSXhOQklDWlc0b0FBUAE",
+          "topic_name": "Andrea Shalal"
+        },
+        {
+          "topic_id": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUY4M2JqRTRaeElDWlc0b0FBUAE",
+          "topic_name": "Joey Roulette"
+        }
+      ]
+    },
+    {
+      "title": "SpaceX completing legal steps to launch Starlink internet in Vietnam",
+      "link": "https://e.vnexpress.net/news/tech/tech-news/spacex-completing-legal-steps-to-launch-starlink-internet-in-vietnam-4869073.html",
+      "snippet": "Authorities in Vietnam are coordinating with Elon Musk's SpaceX to complete legal procedures and infrastructure preparations needed to ...",
+      "photo_url": "https://vcdn1-english.vnecdn.net/2025/04/02/download48-1743577380-17435773-2415-8051-1743577482.png?w=500&h=300&q=100&dpr=2&fit=crop&s=ydAS259tjU94Vf0hgfpzaQ",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iJ0NnNHRSMk5tTm1KaGRFNU1SbXRyVFJDdUFSaWlBaWdCTWdNWlF3Zw=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T07:43:00.000Z",
+      "authors": [],
+      "source_url": "https://e.vnexpress.net",
+      "source_name": "VnExpress International",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://e.vnexpress.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMlV1ZG01bGVIQnlaWE56TG01bGRDZ0FQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "MTN launches compelling home internet offers aimed at connecting families",
+      "link": "https://mybroadband.co.za/news/industrynews/589472-mtn-launches-compelling-home-internet-offers-aimed-at-connecting-families.html",
+      "snippet": "MTN is addressing this need with state-of-the-art 5Gand Fibre Home Internet solutions, ensuring that South Africans can stay connected at home, ...",
+      "photo_url": "https://mybroadband.co.za/news/wp-content/uploads/2025/04/Bertus-MTN-1200x675-1-600x338.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNDBXbHBSTUZGSFVrMDNkVU5pVFJEU0FoallCQ2dLTWdZdFJZNnVwUVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T08:42:42.000Z",
+      "authors": [],
+      "source_url": "https://mybroadband.co.za",
+      "source_name": "MyBroadband",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://mybroadband.co.za&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqLQgKIidDQklTRndnTWFoTUtFVzE1WW5KdllXUmlZVzVrTG1OdkxucGhLQUFQAQ",
+      "related_topics": []
+    },
+    {
+      "title": "Faster internet for Cyprus as fibre expands",
+      "link": "https://cyprus-mail.com/2025/04/02/faster-internet-for-cyprus-as-fibre-expands",
+      "snippet": "Four out of five internet connections in Cyprus now offer speeds of at least 100Mbps, the office of the commissioner of electronic ...",
+      "photo_url": "https://cyprus-mail.com/wp-content/uploads/2025/03/nobs2.jpg",
+      "thumbnail_url": "https://news.google.com/api/attachments/CC8iK0NnNUJjSFpwTVdkTU4wUk5OM1psVFJERUF4aW1CU2dLTWdhVmc0eXBQUVk=-w200-h200-p-df-rw",
+      "published_datetime_utc": "2025-04-02T17:07:48.000Z",
+      "authors": [],
+      "source_url": "https://cyprus-mail.com",
+      "source_name": "Cyprus Mail",
+      "source_logo_url": null,
+      "source_favicon_url": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://cyprus-mail.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+      "source_publication_id": "CAAqKggKIiRDQklTRlFnTWFoRUtEMk41Y0hKMWN5MXRZV2xzTG1OdmJTZ0FQAQ",
+      "related_topics": []
+    }
+  ]
+}
