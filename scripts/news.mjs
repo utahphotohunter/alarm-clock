@@ -73,16 +73,16 @@ export function setNewsPreferences() {
 		
 		newsDialog.showModal();
 		newsOptions.forEach(option => {
-			let info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticles":"pending"}`;
+			let info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
 			localStorage.setItem(option, info);
 			let counter = 0;
 			document.getElementById(option).addEventListener('change', function() {
 				counter = counter + 1;
 				if ((counter % 2) != 0) {
-					info = `{"name":"${option}","preferred":"True","accessedToday":"False","newsArticles":"pending"}`;
+					info = `{"name":"${option}","preferred":"True","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
 					localStorage.setItem(option, info);
 				} else {
-					info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticles":"pending"}`;
+					info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticle1":"pending","newsArticle2":"pending","newsArticle3":"pending","newsArticle4":"pending","newsArticle5":"pending"}`;
 					localStorage.setItem(option, info);
 				}
 				localStorage.setItem('news-set', 'True');
