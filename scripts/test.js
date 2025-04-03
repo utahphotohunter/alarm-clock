@@ -1,4 +1,5 @@
-import { getNewsOptions } from "./news.mjs";
+import { getNewsOptions, formatRandomNews } from "./news.mjs";
+import { getRandomIndex } from "./utils.mjs";
 
 
 async function testFetch(url, source, previouslyRun) {
@@ -57,7 +58,22 @@ function go() {
 async function fetchTestData() {
     const response = await fetch(testUrl);
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
+    let selectedNews = []
+
+    let count = 0;
+    while (count < 4) {
+        count = count + 1;
+        let index = await getRandomIndex(data.data);
+        let article = data.data[index];
+        // console.log(article);
+        selectedNews.push(article);
+
+    }
+    console.log(selectedNews);
+
 }
 
 fetchTestData();
+
+formatRandomNews();

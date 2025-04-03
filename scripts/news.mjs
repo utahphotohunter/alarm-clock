@@ -63,7 +63,7 @@ export function makeNewsPreferenceDialog() {
 
 
 // ==================================================
-// set user news preferences
+// user news preferences
 // ==================================================
 
 // get and store user news preference
@@ -73,16 +73,16 @@ export function setNewsPreferences() {
 		
 		newsDialog.showModal();
 		newsOptions.forEach(option => {
-			let info = `{"name":"${option}","prefered":"False","accessedToday":"False","newsArticles":"pending"}`;
+			let info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticles":"pending"}`;
 			localStorage.setItem(option, info);
 			let counter = 0;
 			document.getElementById(option).addEventListener('change', function() {
 				counter = counter + 1;
 				if ((counter % 2) != 0) {
-					info = `{"name":"${option}","prefered":"True","accessedToday":"False","newsArticles":"pending"}`;
+					info = `{"name":"${option}","preferred":"True","accessedToday":"False","newsArticles":"pending"}`;
 					localStorage.setItem(option, info);
 				} else {
-					info = `{"name":"${option}","prefered":"False","accessedToday":"False","newsArticles":"pending"}`;
+					info = `{"name":"${option}","preferred":"False","accessedToday":"False","newsArticles":"pending"}`;
 					localStorage.setItem(option, info);
 				}
 				localStorage.setItem('news-set', 'True');
@@ -92,6 +92,19 @@ export function setNewsPreferences() {
 			newsDialog.close();
 		})
 	}
+}
+
+// get number of news preferrences
+function getPreferredSources() {
+	let preferredSources = []
+	newsOptions.forEach(option => {
+		let dataString = localStorage.getItem(option);
+		let dataJson = JSON.parse(dataString);
+		if (dataJson.preferred == 'True') {
+			preferredSources.push(option);
+		}
+	});
+	return preferredSources;
 }
 
 
@@ -168,7 +181,21 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 // ==================================================
 
 // formats the data into usable form from random news api
-export async function formatRandomNews() {
+export function formatRandomNews() {
+	let preferredSources = getPreferredSources()
+	if (preferredSources.length == 1) {
+		console.log(preferredSources[0]);
+	} else {
+		preferredSources.forEach(source => {
+			
+		});
+
+
+
+	}
+
+
+
 
 }
 
