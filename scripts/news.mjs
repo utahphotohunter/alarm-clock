@@ -181,33 +181,7 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 // format data
 // ==================================================
 
-// formats the data into usable form if news source is the 'varied' option
-// export async function formatVariedNews(json) {
-// 	let preferredSources = getPreferredSources();
-// 	let count = 0;
-// 	let selectedNews = [];
-// 	let news = await json;
-// 	let articles = news.data;
-// 	if ((preferredSources.length == 1) && preferredSources.includes('varied')) {
-// 		while (count < 5) {
-// 			count = count + 1;
-// 			let index = await getRandomIndex(articles);
-// 			let article = articles[index];
-// 			selectedNews.push(article);
-// 		}
-// 		console.log(selectedNews);
-// 	} else if (preferredSources.includes('varied')) {
-// 		console.log('includes varied')
-// 		while (count < 3) {
-// 			count = count + 1;
-// 			let index = await getRandomIndex(articles);
-// 			let article = articles[index];
-// 			selectedNews.push(article);
-// 		}
-// 		console.log(selectedNews);
-// 	}
-// }
-
+// selects the nubmer of articles to show based on news preferrences
 async function articleQty(source, articles) {
 	let preferredSources = getPreferredSources();
 	let count = 0;
@@ -221,7 +195,6 @@ async function articleQty(source, articles) {
 		}
 		console.log(selectedNews);
 	} else if (preferredSources.includes(source)) {
-		console.log(`includes ${source}`);
 		while (count < 3) {
 			count = count + 1;
 			let index = await getRandomIndex(articles);
@@ -232,16 +205,37 @@ async function articleQty(source, articles) {
 	}
 }
 
+// formats the data into usable form if news source is the 'baseball' option
 export async function formatBaseballNews(json) {
 	let news = await json;
 	let articles = news.body;
-	articleQty('baseball', articles)
+	articleQty('baseball', articles);
 }
 
 // formats the data into usable form if news source is the 'varied' option
 export async function formatVariedNews(json) {
 	let news = await json;
-	// console.log(news);
 	let articles = news.data;
-	articleQty('varied', articles)
+	articleQty('varied', articles);
+}
+
+// formats the data into usable form if news source is the 'varied' option
+export async function formatBasketBallNews(json) {
+	let news = await json;
+	let articles = news;
+	articleQty('basketball', articles);
+}
+
+// formats the data into usable form if news source is the 'finance' option
+export async function formatFinanceNews(json) {
+	let news = await json;
+	let articles = news.news;
+	articleQty('finance', articles);
+}
+
+// formats the data into usable form if news source is the 'hockey' option
+export async function formatHockeyNews(json) {
+	let news = await json;
+	let articles = news.body;
+	articleQty('hockey', articles);
 }
