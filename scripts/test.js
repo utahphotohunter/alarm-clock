@@ -21,5 +21,5 @@ let hockeyNews = fetchRapidApi('False', hockeyUrl, rapidHost, 'hockey');
 // formatVariedNews(variedNews);
 // formatBaseballNews(baseballNews);
 // formatBasketBallNews(basketballNews);
-formatFinanceNews(financeNews);
-// formatHockeyNews(hockeyNews);
+// formatFinanceNews(financeNews);
+formatHockeyNews(hockeyNews);

@@ -213,15 +213,12 @@ async function displayNews(selectedNews, photoUrl) {
 	news.forEach(item => {
 		let title = item[0];
 		let link = item[1];
-		let photo
+		let photo;
 		if (item[2]) {
 			photo = item[2];
 		} else if (!item[2]) {
 			photo = photoUrl;
 		}
-	console.log(`#${count} title: ${title}`);
-	console.log(`#${count} link: ${link}`);
-	console.log(`#${count} photo: ${photo}`);
 	count = count + 1;
 	});
 }
@@ -240,7 +237,7 @@ export async function formatBaseballNews(json) {
 		let articleInfo = [title, link, photoUrl];
 		formattedNews.push(articleInfo);
 	});
-	displayNews(formattedNews, "nope");
+	displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/baseball.jpg");
 }
 
 // formats the data into usable form if news source is the 'varied' option
@@ -256,7 +253,7 @@ export async function formatVariedNews(json) {
 		let articleInfo = [title, link, photoUrl];
 		formattedNews.push(articleInfo);
 	});
-	displayNews(formattedNews, "nope");
+	displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/varied.jpg");
 }
 
 // formats the data into usable form if news source is the 'varied' option
@@ -272,7 +269,7 @@ export async function formatBasketBallNews(json) {
 		let articleInfo = [title, link, photoUrl];
 		formattedNews.push(articleInfo);
 	});
-	displayNews(formattedNews, 'nope');
+	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/basketball.jpg');
 }
 
 // formats the data into usable form if news source is the 'finance' option
@@ -280,7 +277,6 @@ export async function formatFinanceNews(json) {
 	let news = await json;
 	let articles = news.news;
 	const selectedNews = await articleQty('finance', articles);
-	console.log(selectedNews);
 	let formattedNews = [];
 	selectedNews.forEach(selection => {
 		let title = selection.title;
@@ -289,13 +285,12 @@ export async function formatFinanceNews(json) {
 		if (selection.thumbnail) {
 			photoUrl = selection.thumbnail.resolutions[0].url;
 		} else if (!selection.thumbnail) {
-			photoUrl = "https://s.yimg.com/uu/api/res/1.2/iBTfYvdEJVvaL8TaLmBnrQ--~B/aD0zMzU7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/870a0550230a53eb14c44e0995856769";
+			photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg";
 		}
-		console.log(photoUrl);
 		let articleInfo = [title, link, photoUrl];
 		formattedNews.push(articleInfo);
 	});
-	displayNews(formattedNews, 'nope');
+	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg');
 }
 
 // formats the data into usable form if news source is the 'hockey' option
@@ -303,5 +298,14 @@ export async function formatHockeyNews(json) {
 	let news = await json;
 	let articles = news.body;
 	const selectedNews = await articleQty('hockey', articles);
-	console.log(selectedNews);
+	let formattedNews = [];
+	selectedNews.forEach(selection => {
+		let title = selection.title;
+		let link = selection.link;
+		let photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg";
+		let articleInfo = [title, link, photoUrl];
+		formattedNews.push(articleInfo);
+	});
+	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg');
+
 }
