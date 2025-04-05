@@ -193,7 +193,7 @@ async function articleQty(source, articles) {
 			let article = articles[index];
 			selectedNews.push(article);
 		}
-		console.log(selectedNews);
+		return selectedNews;
 	} else if (preferredSources.includes(source)) {
 		while (count < 3) {
 			count = count + 1;
@@ -201,41 +201,107 @@ async function articleQty(source, articles) {
 			let article = articles[index];
 			selectedNews.push(article);
 		}
-		console.log(selectedNews);
+		return selectedNews;
 	}
+}
+
+// displays news and provides photo to news article if none is present in news source
+async function displayNews(selectedNews, photoUrl) {
+	let news = await selectedNews;
+	console.log(news);
+	let count = 1;
+	news.forEach(item => {
+		let title = item[0];
+		let link = item[1];
+		let photo
+		if (item[2]) {
+			photo = item[2];
+		} else if (!item[2]) {
+			photo = photoUrl;
+		}
+	console.log(`#${count} title: ${title}`);
+	console.log(`#${count} link: ${link}`);
+	console.log(`#${count} photo: ${photo}`);
+	count = count + 1;
+	});
 }
 
 // formats the data into usable form if news source is the 'baseball' option
 export async function formatBaseballNews(json) {
 	let news = await json;
 	let articles = news.body;
-	articleQty('baseball', articles);
+	const selectedNews = await articleQty('baseball', articles);
+
+	let formattedNews = [];
+	selectedNews.forEach(selection => {
+		let title = selection.title;
+		let link = selection.link;
+		let photoUrl = selection.image;
+		let articleInfo = [title, link, photoUrl];
+		formattedNews.push(articleInfo);
+	});
+	displayNews(formattedNews, "nope");
 }
 
 // formats the data into usable form if news source is the 'varied' option
 export async function formatVariedNews(json) {
 	let news = await json;
 	let articles = news.data;
-	articleQty('varied', articles);
+	const selectedNews = await articleQty('varied', articles);
+	let formattedNews = [];
+	selectedNews.forEach(selection => {
+		let title = selection.title;
+		let link = selection.link;
+		let photoUrl = selection.photo_url;
+		let articleInfo = [title, link, photoUrl];
+		formattedNews.push(articleInfo);
+	});
+	displayNews(formattedNews, "nope");
 }
 
 // formats the data into usable form if news source is the 'varied' option
 export async function formatBasketBallNews(json) {
 	let news = await json;
 	let articles = news;
-	articleQty('basketball', articles);
+	const selectedNews = await articleQty('basketball', articles);
+	let formattedNews = [];
+	selectedNews.forEach(selection => {
+		let title = selection.title;
+		let link = selection.url;
+		let photoUrl = selection.photo_url;
+		let articleInfo = [title, link, photoUrl];
+		formattedNews.push(articleInfo);
+	});
+	displayNews(formattedNews, 'nope');
 }
 
 // formats the data into usable form if news source is the 'finance' option
 export async function formatFinanceNews(json) {
 	let news = await json;
 	let articles = news.news;
-	articleQty('finance', articles);
+	const selectedNews = await articleQty('finance', articles);
+	console.log(selectedNews);
+	let formattedNews = [];
+	selectedNews.forEach(selection => {
+		let title = selection.title;
+		let link = selection.link;
+		let photoUrl;
+		if (selection.thumbnail) {
+			photoUrl = selection.thumbnail.resolutions[0].url;
+		} else if (!selection.thumbnail) {
+			photoUrl = "https://s.yimg.com/uu/api/res/1.2/iBTfYvdEJVvaL8TaLmBnrQ--~B/aD0zMzU7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/business-wire.com/870a0550230a53eb14c44e0995856769";
+		}
+		console.log(photoUrl);
+		let articleInfo = [title, link, photoUrl];
+		formattedNews.push(articleInfo);
+	});
+	displayNews(formattedNews, 'nope');
 }
 
 // formats the data into usable form if news source is the 'hockey' option
 export async function formatHockeyNews(json) {
 	let news = await json;
 	let articles = news.body;
-	articleQty('hockey', articles);
+	const selectedNews = await articleQty('hockey', articles);
+	console.log(selectedNews);
 }

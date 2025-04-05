@@ -18,8 +18,8 @@ let financeNews = fetchRapidApi('False', financeUrl, rapidHost, 'finance');
 let hockeyUrl = 'https://utahphotohunter.github.io/alarm-clock/data/hockeyTest.json';
 let hockeyNews = fetchRapidApi('False', hockeyUrl, rapidHost, 'hockey');
 
-formatVariedNews(variedNews);
-formatBaseballNews(baseballNews);
-formatBasketBallNews(basketballNews);
+// formatVariedNews(variedNews);
+// formatBaseballNews(baseballNews);
+// formatBasketBallNews(basketballNews);
 formatFinanceNews(financeNews);
-formatHockeyNews(hockeyNews);
+// formatHockeyNews(hockeyNews);
