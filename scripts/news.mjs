@@ -219,7 +219,11 @@ async function displayNews(selectedNews, photoUrl) {
 		} else if (!item[2]) {
 			photo = photoUrl;
 		}
-	count = count + 1;
+		count = count + 1;
+
+
+		// code to create elements and populate them with news
+
 	});
 }
 
