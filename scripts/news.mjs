@@ -5,7 +5,7 @@
 // imports
 // ==================================================
 import { rapidApiKey } from "./keys/keys.mjs";
-import { capitalize, getRandomIndex } from "./utils.mjs";
+import { capitalize, getRandomIndex, shortenText } from "./utils.mjs";
 
 
 // ==================================================
@@ -186,6 +186,7 @@ async function articleQty(source, articles) {
 	let preferredSources = getPreferredSources();
 	let count = 0;
 	let selectedNews = []
+	let includedNews = []
 	if ((preferredSources.length == 1) && preferredSources.includes(source)) {
 		while (count < 5) {
 			count = count + 1;
@@ -199,7 +200,11 @@ async function articleQty(source, articles) {
 			count = count + 1;
 			let index = await getRandomIndex(articles);
 			let article = articles[index];
-			selectedNews.push(article);
+
+			if (!includedNews.includes(article)) {
+				selectedNews.push(article);
+				includedNews.push(article);
+			}
 		}
 		return selectedNews;
 	}
@@ -208,10 +213,13 @@ async function articleQty(source, articles) {
 // displays news and provides photo to news article if none is present in news source
 async function displayNews(selectedNews, photoUrl) {
 	let news = await selectedNews;
-	console.log(news);
 	let count = 1;
+
+	const newsBody = document.getElementById('articles');
+
 	news.forEach(item => {
-		let title = item[0];
+		let initialTitle = item[0];
+		let title = shortenText(initialTitle);
 		let link = item[1];
 		let photo;
 		if (item[2]) {
@@ -223,93 +231,120 @@ async function displayNews(selectedNews, photoUrl) {
 
 
 		// code to create elements and populate them with news
+		
+
+		const article = document.createElement('article');
+		article.classList.add('news');
+		newsBody.appendChild(article);
+		const redirect = document.createElement('a');
+		redirect.setAttribute('href', link);
+		redirect.setAttribute('target', '_blank');
+		article.appendChild(redirect);
+		const image = document.createElement('img');
+		image.setAttribute('src', photo);
+		image.setAttribute('alt', title);
+		redirect.appendChild(image);
+		const articleName = document.createElement('h4');
+		articleName.textContent = title;
+		redirect.appendChild(articleName);
+
+
 
 	});
 }
 
 // formats the data into usable form if news source is the 'baseball' option
 export async function formatBaseballNews(json) {
-	let news = await json;
-	let articles = news.body;
-	const selectedNews = await articleQty('baseball', articles);
+	if (getPreferredSources().includes('baseball')) {
+		let news = await json;
+		let articles = news.body;
+		const selectedNews = await articleQty('baseball', articles);
 
-	let formattedNews = [];
-	selectedNews.forEach(selection => {
-		let title = selection.title;
-		let link = selection.link;
-		let photoUrl = selection.image;
-		let articleInfo = [title, link, photoUrl];
-		formattedNews.push(articleInfo);
-	});
-	displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/baseball.jpg");
+		let formattedNews = [];
+		selectedNews.forEach(selection => {
+			let title = selection.title;
+			let link = selection.link;
+			let photoUrl = selection.image;
+			let articleInfo = [title, link, photoUrl];
+			formattedNews.push(articleInfo);
+		});
+		displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/baseball.jpg");
+	}
 }
 
 // formats the data into usable form if news source is the 'varied' option
 export async function formatVariedNews(json) {
-	let news = await json;
-	let articles = news.data;
-	const selectedNews = await articleQty('varied', articles);
-	let formattedNews = [];
-	selectedNews.forEach(selection => {
-		let title = selection.title;
-		let link = selection.link;
-		let photoUrl = selection.photo_url;
-		let articleInfo = [title, link, photoUrl];
-		formattedNews.push(articleInfo);
-	});
-	displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/varied.jpg");
+	if (getPreferredSources().includes('varied')) {
+		let news = await json;
+		let articles = news.data;
+		const selectedNews = await articleQty('varied', articles);
+		let formattedNews = [];
+		selectedNews.forEach(selection => {
+			let title = selection.title;
+			let link = selection.link;
+			let photoUrl = selection.photo_url;
+			let articleInfo = [title, link, photoUrl];
+			formattedNews.push(articleInfo);
+		});
+		displayNews(formattedNews, "https://utahphotohunter.github.io/alarm-clock/data/images/varied.jpg");
+	}
 }
 
 // formats the data into usable form if news source is the 'varied' option
 export async function formatBasketBallNews(json) {
-	let news = await json;
-	let articles = news;
-	const selectedNews = await articleQty('basketball', articles);
-	let formattedNews = [];
-	selectedNews.forEach(selection => {
-		let title = selection.title;
-		let link = selection.url;
-		let photoUrl = selection.photo_url;
-		let articleInfo = [title, link, photoUrl];
-		formattedNews.push(articleInfo);
-	});
-	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/basketball.jpg');
+	if (getPreferredSources().includes('basketball')) {
+		let news = await json;
+		let articles = news;
+		const selectedNews = await articleQty('basketball', articles);
+		let formattedNews = [];
+		selectedNews.forEach(selection => {
+			let title = selection.title;
+			let link = selection.url;
+			let photoUrl = selection.photo_url;
+			let articleInfo = [title, link, photoUrl];
+			formattedNews.push(articleInfo);
+		});
+		displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/basketball.jpg');
+	}
 }
 
 // formats the data into usable form if news source is the 'finance' option
 export async function formatFinanceNews(json) {
-	let news = await json;
-	let articles = news.news;
-	const selectedNews = await articleQty('finance', articles);
-	let formattedNews = [];
-	selectedNews.forEach(selection => {
-		let title = selection.title;
-		let link = selection.link;
-		let photoUrl;
-		if (selection.thumbnail) {
-			photoUrl = selection.thumbnail.resolutions[0].url;
-		} else if (!selection.thumbnail) {
-			photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg";
-		}
-		let articleInfo = [title, link, photoUrl];
-		formattedNews.push(articleInfo);
-	});
-	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg');
+	if (getPreferredSources().includes('finance')) {
+		let news = await json;
+		let articles = news.news;
+		const selectedNews = await articleQty('finance', articles);
+		let formattedNews = [];
+		selectedNews.forEach(selection => {
+			let title = selection.title;
+			let link = selection.link;
+			let photoUrl;
+			if (selection.thumbnail) {
+				photoUrl = selection.thumbnail.resolutions[0].url;
+			} else if (!selection.thumbnail) {
+				photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg";
+			}
+			let articleInfo = [title, link, photoUrl];
+			formattedNews.push(articleInfo);
+		});
+		displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/finance.jpg');
+	}
 }
 
 // formats the data into usable form if news source is the 'hockey' option
 export async function formatHockeyNews(json) {
-	let news = await json;
-	let articles = news.body;
-	const selectedNews = await articleQty('hockey', articles);
-	let formattedNews = [];
-	selectedNews.forEach(selection => {
-		let title = selection.title;
-		let link = selection.link;
-		let photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg";
-		let articleInfo = [title, link, photoUrl];
-		formattedNews.push(articleInfo);
-	});
-	displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg');
-
+	if (getPreferredSources().includes('hockey')) {
+		let news = await json;
+		let articles = news.body;
+		const selectedNews = await articleQty('hockey', articles);
+		let formattedNews = [];
+		selectedNews.forEach(selection => {
+			let title = selection.title;
+			let link = selection.link;
+			let photoUrl = "https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg";
+			let articleInfo = [title, link, photoUrl];
+			formattedNews.push(articleInfo);
+		});
+		displayNews(formattedNews, 'https://utahphotohunter.github.io/alarm-clock/data/images/hockey.jpg');
+	}
 }

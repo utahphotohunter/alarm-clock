@@ -157,3 +157,11 @@ export function checkDate() {
 export function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 }
+
+export function shortenText(text) {
+  const words = text.trim().split(" ");
+  if (words.length >= 7) {
+    return words.slice(0, 10).join(' ') + '...';
+  }
+  return text;
+}
