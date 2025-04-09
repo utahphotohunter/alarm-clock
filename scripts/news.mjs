@@ -4,7 +4,7 @@
 // ==================================================
 // imports
 // ==================================================
-// import { rapidApiKey } from './keys/keys.mjs';
+import { rapidApiKey } from './keys/keys.mjs';
 import { capitalize, getRandomIndex, shortenText } from './utils.mjs';
 
 
@@ -217,7 +217,7 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 	const options = {
 		method: 'GET',
 		headers: {
-			// 'x-rapidapi-key': rapidApiKey(), // retrieve and provide protected api key 
+			'x-rapidapi-key': rapidApiKey(), // retrieve and provide protected api key 
 			'x-rapidapi-host': host
 		}
 	};
