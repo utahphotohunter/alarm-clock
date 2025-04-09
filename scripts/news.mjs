@@ -3,7 +3,6 @@
 // ==================================================
 // imports
 // ==================================================
-import { rapidApiKey } from './keys/keys.mjs';
 import { capitalize, getRandomIndex, shortenText } from './utils.mjs';
 
 // ==================================================
@@ -201,7 +200,7 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 	const options = {
 		method: 'GET',
 		headers: {
-			'x-rapidapi-key': rapidApiKey(), // retrieve and provide protected api key 
+			'x-rapidapi-key': '2974c03f57msha589081173cc443p1a92e1jsn9ec2d0d53a81',
 			'x-rapidapi-host': host
 		}
 	};
@@ -213,11 +212,8 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 		const newsArticleString = JSON.stringify(newsArticleJson); // turn data response json object into string
 
 		let storedData = localStorage.getItem(source); // get stringified json data from source's local storage and store as 'storedData'
-		console.log(storedData);
 		let storedDataJson = JSON.parse(storedData); // parse stringified json from 'storedData' into json object
-		console.log(storedDataJson);
 		storedDataJson.accessedToday = 'True'; // set 'storedData' item 'accessedToday' to "True"
-		console.log(storedDataJson.accessedToday);
 		storedDataJson.news = newsArticleString; // update 'storedData' 'news' item to a stringed version of the updated api response json object
 		let storedDataString = JSON.stringify(storedDataJson); // turn updated 'storedData' into a string formatted as json
 		localStorage.setItem(source, storedDataString); // store new json string in the local storage of the news source
@@ -226,12 +222,8 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 		// check if 'previouslyRun' equals "True"
 	} else if (previouslyRun == 'True') {
 		const storedDataString = localStorage.getItem(source); // get local storage info string for the news option
-		console.log(storedDataString);
 		const storedDataJson = JSON.parse(storedDataString); // parse the stored info string into json object
-		console.log(storedDataJson);
 		const storedNews = JSON.parse(storedDataJson.news); // take the 'news' item string from the json info and parse it into a json object as 'storedNews'
-		console.log(storedNews);
-
 		return storedNews; // return parsed news in 'storedNews'
 	}
 }
