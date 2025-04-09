@@ -6,5 +6,6 @@
 
 // rapid api key
 export function rapidApiKey() {
-    return 'e9f8fd2c4amsh34446a9d279ae47p19da6ajsn14af066120f5';
+    return '2974c03f57msha589081173cc443p1a92e1jsn9ec2d0d53a81';
+    // return "hello";
 }

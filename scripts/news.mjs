@@ -1,12 +1,10 @@
 // random news api
 
-
 // ==================================================
 // imports
 // ==================================================
 import { rapidApiKey } from './keys/keys.mjs';
 import { capitalize, getRandomIndex, shortenText } from './utils.mjs';
-
 
 // ==================================================
 // global variables
@@ -16,7 +14,6 @@ import { capitalize, getRandomIndex, shortenText } from './utils.mjs';
 // -- update this if another news option is added
 const newsOptions = ['varied', 'finance', 'baseball', 'basketball', 'hockey']; 
 
-
 // ==================================================
 // data accessiblity
 // ==================================================
@@ -25,7 +22,6 @@ const newsOptions = ['varied', 'finance', 'baseball', 'basketball', 'hockey'];
 export function getNewsOptions() {
 	return newsOptions; // return array of news options
 }
-
 
 // ==================================================
 // make news preference dialog
@@ -66,7 +62,6 @@ export function makeNewsPreferenceDialog() {
 	button.textContent = 'Close'; // set the text content of the button to "close"
 	newsForm.appendChild(button); // add the button to the end of the form after all the input options have been added
 }
-
 
 // ==================================================
 // user news preferences
@@ -178,7 +173,6 @@ function getPreferredSources() {
 	return preferredSources; // return 'preferredSoureces' array
 }
 
-
 // ==================================================
 // reset api lockout
 // ==================================================
@@ -196,19 +190,9 @@ export function resetApiLockout() {
 	});
 }
 
-
 // ==================================================
 // retrieve data
 // ==================================================
-
-// get news source
-export async function getNewsSource() {
-	const url = 'https://utahphotohunter.github.io/alarm-clock/data/newsSources.json'; // set the url for the news sources info
-	const response = await fetch(url); // wait for the news source info to be delivered
-	const result = await response.json(); // parse delivered info into json object
-	const news = result.news; // get the news array from json object
-	return news; // return news array
-}
 
 // fetch news from api on rapidapi.com
 export async function fetchRapidApi(previouslyRun, url, host, source) {
@@ -224,13 +208,16 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 
 	// check if 'previouslyRun' is "False"
 	if (previouslyRun == 'False') {
-		const response = await fetch(url); // wait for api response data to be delivered
+		const response = await fetch(url, options); // wait for api response data to be delivered
 		const newsArticleJson = await response.json(); // parse data into json object
 		const newsArticleString = JSON.stringify(newsArticleJson); // turn data response json object into string
 
 		let storedData = localStorage.getItem(source); // get stringified json data from source's local storage and store as 'storedData'
+		console.log(storedData);
 		let storedDataJson = JSON.parse(storedData); // parse stringified json from 'storedData' into json object
+		console.log(storedDataJson);
 		storedDataJson.accessedToday = 'True'; // set 'storedData' item 'accessedToday' to "True"
+		console.log(storedDataJson.accessedToday);
 		storedDataJson.news = newsArticleString; // update 'storedData' 'news' item to a stringed version of the updated api response json object
 		let storedDataString = JSON.stringify(storedDataJson); // turn updated 'storedData' into a string formatted as json
 		localStorage.setItem(source, storedDataString); // store new json string in the local storage of the news source
@@ -239,13 +226,15 @@ export async function fetchRapidApi(previouslyRun, url, host, source) {
 		// check if 'previouslyRun' equals "True"
 	} else if (previouslyRun == 'True') {
 		const storedDataString = localStorage.getItem(source); // get local storage info string for the news option
+		console.log(storedDataString);
 		const storedDataJson = JSON.parse(storedDataString); // parse the stored info string into json object
+		console.log(storedDataJson);
 		const storedNews = JSON.parse(storedDataJson.news); // take the 'news' item string from the json info and parse it into a json object as 'storedNews'
+		console.log(storedNews);
 
 		return storedNews; // return parsed news in 'storedNews'
 	}
 }
-
 
 // ==================================================
 // format data
@@ -383,7 +372,7 @@ export async function formatVariedNews(json) {
 }
 
 // formats the data into usable form if news source is the 'varied' option
-export async function formatBasketBallNews(json) {
+export async function formatBasketballNews(json) {
 
 	// check if preferred sources array includes "basketball"
 	if (getPreferredSources().includes('basketball')) {
