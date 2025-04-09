@@ -5,8 +5,9 @@
 // imports
 // ==================================================
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
-import { playAlarm, getSounds } from "./sounds.mjs";
-import { setAlarm, getAlarm } from "./alarmTime.mjs";
+import { playAlarm, getSounds } from './sounds.mjs';
+import { setAlarm, getAlarm } from './alarmTime.mjs';
+import { setInitialNewsPreferences, makeNewsPreferenceDialog, resetApiLockout, editNewsPreferrences } from './news.mjs';
 
 
 // ==================================================
@@ -14,9 +15,16 @@ import { setAlarm, getAlarm } from "./alarmTime.mjs";
 // ==================================================
 
 // initial alarm
+// check if 'alarmHour' is in local storage
 if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
+
+// create news preference dialog
+makeNewsPreferenceDialog(); 
+
+// set news preferences
+setInitialNewsPreferences(); 
 
 
 // ==================================================
@@ -36,11 +44,12 @@ const sounds = getSounds(); // gets alarms in json object
 // let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
 
 // buttons
-const startButton = document.getElementById('start'); // button to enable the alarm
+const enableAlarm = document.getElementById('start'); // button to enable the alarm
 const stop = document.querySelector('button'); // button to stop the alarm
 const editAlarmTime = document.querySelector('#edit-alarm'); // button to open the alarm setting dialog
 const applyAlarm = document.querySelector('#confirm-alarm'); // button to apply user set alarm 
 const closeAlarm = document.querySelector('#close-alarm'); // button to close alarm user dialog
+const editNews = document.getElementById('edit-news'); // button to open the news preferrence dialog
 
 
 // alarm time input selectors
@@ -58,7 +67,7 @@ time.textContent = getTime(); // displays time
 date.textContent = getDate(); // displays date
 alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 
-// refreshes display info
+// every second, refresh date, time, and alarm time
 setInterval(function() {
     time.textContent = getTime(); // displays time
     date.textContent = getDate(); // displays date
@@ -70,26 +79,42 @@ setInterval(function() {
 // listening events
 // ==================================================
 
-// start program and stop alarm
-startButton.addEventListener("click", function() {
+// sounds, getRandomIndex(sounds)
+
+// reponse to enable alarm button
+enableAlarm.addEventListener('click', function() {
+
+    // every 60 seconds, check if it is alarm time
     setInterval(function() {
+
+        // check if alarm time and current time are the same
         if (getAlarm() == getTime()) {
-            playAlarm(sounds, getRandomIndex(sounds), stop);
+            playAlarm(sounds, getRandomIndex(sounds), stop); // play a random alarm with a stop button
+        }
+        
+        // check if the current time is "3:30 AM"
+        if (getTime() == '3:30 AM') {
+            resetApiLockout(); // change every local storage news option "accesssedToday" item to the value of "False"
         }
     }, 60000);
 });
 
-// show alarm interface
-editAlarmTime.addEventListener("click", function() {
-    alarmDialog.showModal();
+// response for edit alarm button
+editAlarmTime.addEventListener('click', function() {
+    alarmDialog.showModal(); // open the alarm interface dialog as modal
 });
 
-// close alarm interface
-closeAlarm.addEventListener("click", function() {
-    alarmDialog.close();
+// response for close alarm dialog button
+closeAlarm.addEventListener('click', function() {
+    alarmDialog.close(); // close the alarm dialog
 });
 
-// set user alarm
-applyAlarm.addEventListener("click", function() {
-    setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value);
+// response for apply alarm button
+applyAlarm.addEventListener('click', function() {
+    setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value); // validate and store the set alarm time in local storage
+});
+
+// response for edit news preferrences button
+editNews.addEventListener('click', function() {
+    editNewsPreferrences(); // open the news preferrences dialog and update local storage with new preferrences
 });

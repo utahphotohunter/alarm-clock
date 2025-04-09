@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="An alarm clock that makes you get up.">
-    <meta name="author" content="Mitchel Hunter">
+    <meta author="" content="Mitchel Hunter">
     <title>Alarm Clock</title>
     <script src="scripts/script.js" type="module" defer></script>
     <!-- <script src="../scripts/test.js" type="module" defer></script> -->
@@ -16,9 +16,11 @@
         <h1 id="time"></h1>
         <h2 id="date"></h2>
         <p id="alarmTime"></p>
-        <button>I'm Awake</button>
+        <a href="articles.html"><button>I'm Awake</button></a>
         <button id="start">Enable Alarm</button>
         <button id="edit-alarm">Set Alarm</button>
+        <button id="edit-news">Edit News Preferrences</button>
+        <a href="articles.html">Articles</a>
         <dialog id="alarm-interface">
             <form action="">
                 <h3>Enter Alarm Time</h3>
@@ -33,22 +35,6 @@
                 </select>
                 <button id="confirm-alarm">Set Alarm</button>
                 <button id="close-alarm">Close</button>
-            </form>
-        </dialog>
-        <dialog id="news-preferences">
-            <form action="">
-                <h3>What kind of news do you want to see?</h3>
-                <input type="checkbox" id="varied" name="varied" value="varied">
-                <label for="varied">Varied</label> <br>
-                <input type="checkbox" id="finance" name="finance" value="finance">
-                <label for="finance">Finance</label> <br>
-                <input type="checkbox" id="baseball" name="baseball" value="baseball">
-                <label for="baseball">Baseball</label> <br>
-                <input type="checkbox" id="basketball" name="basketball" value="basketball">
-                <label for="basketball">Basketball</label> <br>
-                <input type="checkbox" id="hockey" name="hockey" value="hockey">
-                <label for="hockey">Hockey</label> <br>
-                <button id="close-news-preferences">Close</button>
             </form>
         </dialog>
     </main>
