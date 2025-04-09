@@ -1,6 +1,5 @@
 // useful general purpose functions
 
-
 // ==================================================
 // random number functions
 // ==================================================
@@ -16,7 +15,6 @@ export async function getRandomIndex(array) {
   const selection = getRandom(list.length); // get a random index number from the array
   return selection; // return the random index number
 }
-
 
 // ==================================================
 // time and date functions
@@ -137,7 +135,6 @@ export function getNumericalDate() {
     let currentDate = `${month}/${day}/${year}`; // format 'currentDate' as mm/dd/yyyy
     return currentDate; // return 'currentDate'
 }
-
 
 // ==================================================
 // formatting functions

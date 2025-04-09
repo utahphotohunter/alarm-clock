@@ -1,11 +1,9 @@
 // sound functions and data
 
-
 // ==================================================
 // sound data
 // ==================================================
 const url = 'https://utahphotohunter.github.io/alarm-clock/data/alarm.json'; // set url for getting alarm info in json form
-
 
 // ==================================================
 // sound functions

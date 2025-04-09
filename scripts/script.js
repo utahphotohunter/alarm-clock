@@ -1,6 +1,5 @@
 // main script for index.html
 
-
 // ==================================================
 // imports
 // ==================================================
@@ -8,7 +7,6 @@ import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from './sounds.mjs';
 import { setAlarm, getAlarm } from './alarmTime.mjs';
 import { setInitialNewsPreferences, makeNewsPreferenceDialog, resetApiLockout, editNewsPreferrences } from './news.mjs';
-
 
 // ==================================================
 // initial settings on first page load
@@ -26,7 +24,6 @@ makeNewsPreferenceDialog();
 // set news preferences
 setInitialNewsPreferences(); 
 
-
 // ==================================================
 // variables
 // ==================================================
@@ -39,9 +36,6 @@ const alarmDialog = document.getElementById('alarm-interface'); // selects the a
 
 // data variables
 const sounds = getSounds(); // gets alarms in json object
-
-
-// let selectedIndex = getRandomIndex(sounds); // selects random alarm from json
 
 // buttons
 const enableAlarm = document.getElementById('start'); // button to enable the alarm
@@ -56,7 +50,6 @@ const editNews = document.getElementById('edit-news'); // button to open the new
 let userAlarmHour = document.getElementById('hour'); // alarm hour input field
 let userAlarmMinute = document.getElementById('minute'); // alarm minute input field
 let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian input field
-
 
 // ==================================================
 // page content
@@ -74,12 +67,9 @@ setInterval(function() {
     alarmTime.textContent = `Alarm - ${getAlarm()}`; // displays alarm time
 }, 1000);
 
-
 // ==================================================
 // listening events
 // ==================================================
-
-// sounds, getRandomIndex(sounds)
 
 // reponse to enable alarm button
 enableAlarm.addEventListener('click', function() {
