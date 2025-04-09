@@ -298,20 +298,17 @@ async function displayNews(selectedNews, photoUrl) {
 		const article = document.createElement('article'); // create an <article> html element as 'article'
 		article.classList.add('news'); // add class "news" to 'article'
 		newsBody.appendChild(article); // add 'article' to end of 'newsBody'
+
 		const redirect = document.createElement('a'); // create an <a> html element as 'redirect'
 		redirect.setAttribute('href', link); // set the 'redirect' "href" attribute to 'link'
 		redirect.setAttribute('target', '_blank'); // set the 'redirect' "target" attribute to "_blank" to load in new tab
 		article.appendChild(redirect); // add 'redirect' to end of 'article'
+		
 		const image = document.createElement('img'); // create <img> html element as 'image' to store larger dimension image for large screens
 		image.setAttribute('src', photo); // set "src" attriubte of 'image' to 'photo'
 		image.setAttribute('alt', title); // set "alt" attribute of 'image' to 'title'
 		image.classList.add('large-image'); // add class of "large-image" to 'image'
 		redirect.appendChild(image); // add 'image' to end of 'redirect'
-		const mobileImage = document.createElement('img'); // create <img> html element as 'mobileImage' to store smaller dimension image for mobile screens
-		mobileImage.setAttribute('src', photo); // set "src" attriubte of 'mobileImage' to 'photo'
-		mobileImage.setAttribute('alt', title); // set "alt" attribute of 'mobileImage' to 'title'
-		mobileImage.classList.add('mobile-image'); // add class of "large-image" to 'mobileImage'
-		redirect.appendChild(mobileImage); // add 'mobileImage' to end of 'redirect'
 		
 		const articleName = document.createElement('h4'); // create <h4> html element as 'articleName'
 		articleName.textContent = title; // set the text content of 'articleName' to 'title'
