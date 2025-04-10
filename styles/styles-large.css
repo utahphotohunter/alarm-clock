@@ -48,5 +48,46 @@ body {
     line-height: 1.3rem;
 }
 
+
+
+
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px;
+    height: 100vh;
+    border: purple solid 2px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    border: green solid 2px;
+    height: 100%;
+}
+
+nav ul li {
+    color: var(--accent-color-2);
+    font-size: larger;
+    border: red solid 2px;
+    /* padding: 10px; */
+    margin-right: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    border: blue solid 2px;
+    padding: 10px;
+}
+
 }    
 

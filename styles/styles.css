@@ -4,7 +4,8 @@
     --primary-color: #EDDE87;
     --secondary-color: white;
     --accent-color-1: #ABABEA;
-    --accent-color-2: #151571;
+    --accent-color-2: #2f2f73;
+
 }
 
 /* global settings */
@@ -22,27 +23,84 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
     position: relative;
     overflow-x: hidden;
     background-color: var(--primary-color);
 }
 
-nav {
+/* header */
+/* mobile menu */
+
+#mobile-menu-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: start;
     align-items: center;
     font-size: 1.2rem;
-    padding: 15px;
+    /* height: 100vh; */
+    border: purple solid 2px;
 }
 
-nav ul {
+#icon-area {
+    border: black solid 2px;
+    height: 75px;
+    width: 100%;
     display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
 }
 
-nav a {
-    color: var(--accent-color-2);
-    font-size: larger;
+#icon {
+    border: red solid 2px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-bar {
+    width: 100%;
+    height: 15%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: #00000090 2px 2px;
+}
+
+#mobile-menu {
+    border: green solid 2px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-item {
+    border: red solid 2px;
+    width: 80%;
+    height: 60px;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.mobile-item:hover {
+    background-color: var(--accent-color-1);
+    text-decoration: underline;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
 }
 
 
@@ -51,12 +109,15 @@ nav a {
     padding: 10px;
     /* border: 2px solid var(--accent-color-1); */
     border-radius: 7px;
-    font-size: 1rem;
 }
 
 .btn:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.current {
+    background-color: var(--accent-color-1);
 }
 
 
