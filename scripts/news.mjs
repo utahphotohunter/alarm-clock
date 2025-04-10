@@ -32,11 +32,20 @@ export function makeNewsPreferenceDialog() {
 
 	let newsDialog = document.createElement('dialog'); // create a dialog element
 	newsDialog.id = 'news-preferrences'; // give dialog element id of 'news-preferrences'
-	newsDialog.innerHTML = '<h3>What kind of news do you want to see?</h3>'; // add h3 element into dialog
 	main.appendChild(newsDialog); // add the dialog element to the end of the main element
 
+	let dialogSection = document.createElement('section');
+	dialogSection.id = 'dialog-content';
+
+
+
+
+	dialogSection.innerHTML = '<h3>What kind of news do you want to see?</h3>'; // add h3 element into dialog
+	newsDialog.appendChild(dialogSection);
+
 	let newsForm = document.createElement('form'); // create a form html element
-	newsDialog.appendChild(newsForm); // add form to dialog element
+	newsForm.id = 'news-form';
+	dialogSection.appendChild(newsForm); // add form to dialog element
 
 	// for each option in the 'newsOption' array
 	newsOptions.forEach(option => {
@@ -51,13 +60,20 @@ export function makeNewsPreferenceDialog() {
 		label.textContent = capitalize(option); // set the text content as the current option with, but with first letter capitalized
 
 		let breakElement = document.createElement('br'); // create an hmtl break element
-		newsForm.appendChild(input); // add input to the end of the form
-		newsForm.appendChild(label); // add label element to the end of the form
-		newsForm.appendChild(breakElement); // add the break element to the end of the form
+
+		let inputDiv = document.createElement('div');
+		inputDiv.classList.add('inputDiv');
+
+		inputDiv.appendChild(input); // add input to the end of the form
+		inputDiv.appendChild(label); // add label element to the end of the form
+		inputDiv.appendChild(breakElement); // add the break element to the end of the form
+
+		newsForm.appendChild(inputDiv);
 	});
 
 	let button = document.createElement('button'); // create a button 
 	button.id = 'close-news-preferrences'; // give the button an id of 'close-news-preferrences'
+	button.classList.add('btn');
 	button.textContent = 'Close'; // set the text content of the button to "close"
 	newsForm.appendChild(button); // add the button to the end of the form after all the input options have been added
 }
