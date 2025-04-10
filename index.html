@@ -7,22 +7,47 @@
     <meta author="" content="Mitchel Hunter">
     <title>Alarm Clock</title>
     <script src="scripts/script.js" type="module" defer></script>
+    <script src="scripts/nav.js" defer></script>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/styles-large.css">
 </head>
 <body>
+    <header>
+        <section id="mobile-menu-header">
+            <div id="icon-area">
+                <div id="icon">
+                    <div class="icon-bar"></div>
+                    <div class="icon-bar"></div>
+                    <div class="icon-bar"></div>
+                </div>
+            </div>
+            <nav id="mobile-menu">
+                <a href="index.html" class="btn current mobile-item">Home</a>
+                <a href="articles.html" class="btn mobile-item">News</a>
+                <button id="edit-news" class="btn mobile-item">Preferrences</button>
+            </nav>
+        </section>
+        <nav id="large-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articles.html" class="current">News</a></li>
+            </ul>
+            <button id="edit-news" class="btn">News Preferrences</button>
+        </nav>
+    </header>
     <main>
-        <h1 id="time"></h1>
-        <h2 id="date"></h2>
-        <p id="alarmTime"></p>
-        <a href="articles.html"><button>I'm Awake</button></a>
-        <button id="start">Enable Alarm</button>
-        <button id="edit-alarm">Set Alarm</button>
-        <button id="edit-news">Edit News Preferrences</button>
-        <a href="articles.html">Articles</a>
+        <section id="alarm-info">
+            <h1 id="time"></h1>
+            <h2 id="date"></h2>
+            <p id="alarmTime"></p>
+        </section>
+        <section id="alarm-controls">
+            <button id="start" class="btn">Enable Alarm</button>
+            <button id="stop-alarm" class="btn">I'm Awake</button>
+            <button id="edit-alarm" class="btn">Set Alarm</button>
+        </section>
         <dialog id="alarm-interface">
-            <form action="">
-                <h3>Enter Alarm Time</h3>
+            <form action="" id="alarm-form">
+            <h3>Enter Alarm Time</h3>
                 <label for="hour">Hour</label>
                 <input type="number" min="1" max="12" step="1" id="hour" name="hour">
                 <label for="minute">Minute</label>
@@ -32,8 +57,8 @@
                     <option value="AM" selected>AM</option>
                     <option value="PM">PM</option>
                 </select>
-                <button id="confirm-alarm">Set Alarm</button>
-                <button id="close-alarm">Close</button>
+                <button id="confirm-alarm" class="btn">Set Alarm</button>
+                <button id="close-alarm" class="btn">Close</button>
             </form>
         </dialog>
     </main>

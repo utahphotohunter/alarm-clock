@@ -9,6 +9,33 @@ import { setAlarm, getAlarm } from './alarmTime.mjs';
 import { setInitialNewsPreferences, makeNewsPreferenceDialog, resetApiLockout, editNewsPreferrences } from './news.mjs';
 
 // ==================================================
+// variables
+// ==================================================
+
+// html selectors
+const time = document.getElementById('time'); // selects header for time
+const date = document.getElementById('date'); // selects header for date
+const alarmTime = document.getElementById('alarmTime'); // selects p for alarm time
+const alarmDialog = document.getElementById('alarm-interface'); // selects the alarm interface dialog
+
+// data variables
+const sounds = getSounds(); // gets alarms in json object
+
+// buttons
+const enableAlarm = document.getElementById('start'); // button to enable the alarm
+const stop = document.getElementById('stop-alarm'); // button to stop the alarm
+const editAlarmTime = document.querySelector('#edit-alarm'); // button to open the alarm setting dialog
+const applyAlarm = document.querySelector('#confirm-alarm'); // button to apply user set alarm 
+const closeAlarm = document.querySelector('#close-alarm'); // button to close alarm user dialog
+const editNews = document.getElementById('edit-news'); // button to open the news preferrence dialog
+
+
+// alarm time input selectors
+let userAlarmHour = document.getElementById('hour'); // alarm hour input field
+let userAlarmMinute = document.getElementById('minute'); // alarm minute input field
+let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian input field
+
+// ==================================================
 // initial settings on first page load
 // ==================================================
 
@@ -24,32 +51,9 @@ makeNewsPreferenceDialog();
 // set news preferences
 setInitialNewsPreferences(); 
 
-// ==================================================
-// variables
-// ==================================================
-
-// html selectors
-const time = document.getElementById('time'); // selects header for time
-const date = document.getElementById('date'); // selects header for date
-const alarmTime = document.getElementById('alarmTime'); // selects p for alarm time
-const alarmDialog = document.getElementById('alarm-interface'); // selects the alarm interface dialog
-
-// data variables
-const sounds = getSounds(); // gets alarms in json object
-
-// buttons
-const enableAlarm = document.getElementById('start'); // button to enable the alarm
-const stop = document.querySelector('button'); // button to stop the alarm
-const editAlarmTime = document.querySelector('#edit-alarm'); // button to open the alarm setting dialog
-const applyAlarm = document.querySelector('#confirm-alarm'); // button to apply user set alarm 
-const closeAlarm = document.querySelector('#close-alarm'); // button to close alarm user dialog
-const editNews = document.getElementById('edit-news'); // button to open the news preferrence dialog
-
-
-// alarm time input selectors
-let userAlarmHour = document.getElementById('hour'); // alarm hour input field
-let userAlarmMinute = document.getElementById('minute'); // alarm minute input field
-let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian input field
+window.onload = function() {
+    enableAlarm.classList.toggle('active');
+};
 
 // ==================================================
 // page content
@@ -74,11 +78,15 @@ setInterval(function() {
 // reponse to enable alarm button
 enableAlarm.addEventListener('click', function() {
 
+
+    enableAlarm.classList.toggle('active');
+
     // every 60 seconds, check if it is alarm time
     setInterval(function() {
 
         // check if alarm time and current time are the same
         if (getAlarm() == getTime()) {
+            stop.classList.toggle('active');
             playAlarm(sounds, getRandomIndex(sounds), stop); // play a random alarm with a stop button
         }
         
@@ -87,6 +95,10 @@ enableAlarm.addEventListener('click', function() {
             resetApiLockout(); // change every local storage news option "accesssedToday" item to the value of "False"
         }
     }, 60000);
+});
+
+stop.addEventListener('click', function() {
+    window.location.href = 'articles.html';
 });
 
 // response for edit alarm button
