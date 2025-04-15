@@ -6,7 +6,6 @@
 import { getTime, getDate, getRandomIndex } from './utils.mjs';
 import { playAlarm, getSounds } from './sounds.mjs';
 import { setAlarm, getAlarm } from './alarmTime.mjs';
-import { setInitialNewsPreferences, makeNewsPreferenceDialog, resetApiLockout, editNewsPreferrences } from './news.mjs';
 
 // ==================================================
 // variables
@@ -44,12 +43,6 @@ let userAlarmMeridian = document.getElementById('meridian'); // alarm meridian i
 if (!('alarmHour' in localStorage)) {
     setAlarm('8', '30', 'AM'); // set initial alarm to 8:30am
 }
-
-// create news preference dialog
-makeNewsPreferenceDialog(); 
-
-// set news preferences
-setInitialNewsPreferences(); 
 
 window.onload = function() {
     enableAlarm.classList.toggle('active');
@@ -89,11 +82,6 @@ enableAlarm.addEventListener('click', function() {
             stop.classList.toggle('active');
             playAlarm(sounds, getRandomIndex(sounds), stop); // play a random alarm with a stop button
         }
-        
-        // check if the current time is "3:30 AM"
-        if (getTime() == '3:30 AM') {
-            resetApiLockout(); // change every local storage news option "accesssedToday" item to the value of "False"
-        }
     }, 60000);
 });
 
@@ -114,9 +102,4 @@ closeAlarm.addEventListener('click', function() {
 // response for apply alarm button
 applyAlarm.addEventListener('click', function() {
     setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value); // validate and store the set alarm time in local storage
-});
-
-// response for edit news preferrences button
-editNews.addEventListener('click', function() {
-    editNewsPreferrences(); // open the news preferrences dialog and update local storage with new preferrences
 });
