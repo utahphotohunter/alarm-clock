@@ -6,7 +6,6 @@
     --accent-color-1: #ABABEA;
     --accent-color-2: #2f2f7390;
     --accent-color-3: #2f2f73;
-
 }
 
 /* global settings */
@@ -28,6 +27,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     background-color: var(--primary-color);
+    padding-top: 100px;
 }
 
 header {
