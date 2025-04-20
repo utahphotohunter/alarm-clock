@@ -85,10 +85,6 @@ enableAlarm.addEventListener('click', function() {
     }, 60000);
 });
 
-stop.addEventListener('click', function() {
-    window.location.href = 'articles.html';
-});
-
 // response for edit alarm button
 editAlarmTime.addEventListener('click', function() {
     alarmDialog.showModal(); // open the alarm interface dialog as modal
