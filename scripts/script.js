@@ -99,3 +99,8 @@ closeAlarm.addEventListener('click', function() {
 applyAlarm.addEventListener('click', function() {
     setAlarm(userAlarmHour.value, userAlarmMinute.value, userAlarmMeridian.value); // validate and store the set alarm time in local storage
 });
+
+// removes active from class to hide stop button after alarm stop
+stop.addEventListener('click', () => {
+    stop.classList.toggle('active');
+});
