@@ -65,12 +65,12 @@ h2 {
     text-decoration: underline;
     cursor: pointer;
     background-color: var(--accent-color-1);
-    color: var(--secondary-color) !important;
+    color: var(--accent-color-3) !important;
 }
 
 .current {
     background-color: var(--accent-color-1) !important;
-    color: var(--secondary-color) !important;
+    color: var(--accent-color-3) !important;
 }
 
 

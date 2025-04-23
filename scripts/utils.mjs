@@ -39,7 +39,7 @@ export function getTime() {
     }
 
     // check if 'minute' is 1 digit
-    if (minute.length < 2) {
+    if (minute.toString().length < 2) {
         minute = `0${minute}`; // format 'minute' as two digits
     }
     return `${hour}:${minute} ${meridian}`; // return time formatted as hh:mm:meridian
